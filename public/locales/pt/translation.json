@@ -1,26 +1,54 @@
 {
-    "hero": {
-        "title": "Outsourcing da Comunicação",
-        "subtitle": "A ponte entre a voz da sua marca e o mercado"
+    "cta": {
+        "title": "Conheça e implemente o Outsourcing de Comunicação na sua empresa",
+        "btn": "Agende o seu coffee com a MA2"
     },
-    "funFact": {
-        "title": "Comunicação como negócio",
-        "subtitle": "As empresas que entendem comunicação e marketing como parte estratégica alavancam mais rápido e obtêm melhores resultados",
-        "data": {
-            "clientes": "Clientes",
-            "horas": "Horas de Projetos",
-            "designs": "Designs Produzidos",
-            "palavras": "Palavras Escritas"
-        }
-    },
+    "btnVerMais": "Ver mais",
     "servicos": {
-        "title": "Serviços pensados e personalizados para a sua marca",
-        "subtitle": "O que nós fazemos",
-        "btn": "Conheça cada um deles"
-    },    
-    "video":"O outsourcing de comunicação é uma resposta à mudança. Atendemos as novas exigências do mercado com um time multidisciplinar e estratégico em comunicação e marketing para potencializar e escalar as equipes internas, que focam no core business e nas ações estratégicas.",
-    "testimonial":{
-        "title":"O que falam sobre nós"
-    },    
-    "movingText":"A ponte entre a voz da sua marca e o mercado.&nbsp;&nbsp;"
+        "planejar": "Planejar e Contar",
+        "criar": "Criar",
+        "propagar": "Propagar"
+    },
+    "cases": {
+        "title": "Conheça o Portfólio MA2",
+        "subtitle": "Nossos cases"
+    },
+    "menu": {
+        "servicos": "Serviços",
+        "sobre": "Sobre",
+        "cases": "Cases",
+        "blog": "Blog",
+        "contato": "Contato"
+    },
+    "faleConosco": "Fale conosco",
+    "faleConosco2": "Você tem algum projeto em <br /> mente? Fale conosco.",
+    "brasil": "Brasil",
+    "alemanha": "Alemanha",
+    "textWidget":"Somos o outsourcing de comunicação para empresas do Brasil e do mundo",
+    "home": {
+        "hero": {
+            "title": "Outsourcing da Comunicação",
+            "subtitle": "A ponte entre a voz da sua marca e o mercado"
+        },
+        "funFact": {
+            "title": "Comunicação como negócio",
+            "subtitle": "As empresas que entendem comunicação e marketing como parte estratégica alavancam mais rápido e obtêm melhores resultados",
+            "data": {
+                "clientes": "Clientes",
+                "horas": "Horas de Projetos",
+                "designs": "Designs Produzidos",
+                "palavras": "Palavras Escritas"
+            }
+        },
+        "servicos": {
+            "title": "Serviços pensados e personalizados para a sua marca",
+            "subtitle": "O que nós fazemos",
+            "btn": "Conheça cada um deles"
+        },
+        "video": "O outsourcing de comunicação é uma resposta à mudança. Atendemos as novas exigências do mercado com um time multidisciplinar e estratégico em comunicação e marketing para potencializar e escalar as equipes internas, que focam no core business e nas ações estratégicas.",
+        "testimonial": {
+            "title": "O que falam sobre nós"
+        },
+        "movingText": "A ponte entre a voz da sua marca e o mercado.&nbsp;&nbsp;"
+    }
 }

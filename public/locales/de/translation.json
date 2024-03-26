@@ -1,0 +1,28 @@
+{
+    "cta": {
+        "title": "Lernen Sie das Kommunikations - Outsourcing kennen und implementieren Sie es in Ihrem Unternehmen",
+        "btn": "Vereinbaren Sie Ihren Kaffee mit MA2"
+    },
+    "btnVerMais": "Mehr sehen",
+    "servicos": {
+        "planejar": "Analysieren und Planen",
+        "criar": "Erstellen",
+        "propagar": "Propagieren"
+    },
+    "cases": {
+        "title": "Lernen Sie das MA2-Portfolio kennen",
+        "subtitle": "Unsere Projekte"
+    },
+    "menu": {
+        "servicos": "Service",
+        "sobre": "über",
+        "cases": "Projekte",
+        "blog": "Blog",
+        "contato": "Kontakt"
+    },
+    "faleConosco": "Kontaktieren Sie uns",
+    "faleConosco2": "Haben Sie ein Projekt im <br /> Sinn? Kontaktieren",
+    "brasil": "Brasilien",
+    "alemanha": "Deutschland",
+    "textWidget":"Wir sind das Kommunikations - Outsourcing für Unternehmen in Brasilien und auf der ganzen Welt"
+}
