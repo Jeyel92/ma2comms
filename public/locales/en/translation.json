@@ -1,0 +1,28 @@
+{
+    "hero": {
+        "title": "Communication Outsourcing",
+        "subtitle": "The bridge between your brand's voice and the market"
+    },
+    "funFact": {
+        "title": "Communication as business",
+        "subtitle": "Companies that know communication and marketing as a strategic part leverage faster and get better achievements",
+        "data": {
+            "clientes":"Customers",
+            "horas":"Hours of Projects",
+            "designs":"Designs Produced",
+            "palavras":"Words Written"
+        }
+    },
+    "servicos":{
+        "title":"Services designed and personalized for your brand",
+        "subtitle":"What we do ",
+        "btn":"Get to know each of them"
+        
+    },    
+    "video":"Communication outsourcing is a response to change. We meet new market demands with a multidisciplinary and strategic communication and marketing team to enhance and scale internal teams, which focus on core business and strategic actions. ",
+    "testimonial":{
+        "title":"What they say about us"
+    },
+    "movingText":"The bridge between your brand's voice and the market.&nbsp;&nbsp;"
+}
+
