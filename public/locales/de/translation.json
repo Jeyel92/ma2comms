@@ -24,5 +24,104 @@
     "faleConosco2": "Haben Sie ein Projekt im <br /> Sinn? Kontaktieren",
     "brasil": "Brasilien",
     "alemanha": "Deutschland",
-    "textWidget":"Wir sind das Kommunikations - Outsourcing für Unternehmen in Brasilien und auf der ganzen Welt"
+    "textWidget": "Wir sind das Kommunikations - Outsourcing für Unternehmen in Brasilien und auf der ganzen Welt",
+    "home": {
+        "hero": {
+            "title": "Kommunikations -  Outsourcing",
+            "subtitle": "Die Brücke zwischen Ihrer Marke und dem Markt"
+        },
+        "funFact": {
+            "title": "Kommunikation gehört zum Geschäft ",
+            "subtitle": "Unternehmen, die Kommunikation und Marketing als eine strategische Aufgabe betrachten, erzielen schneller und bessere Ergebnisse.",
+            "data": {
+                "clientes": "Kunden",
+                "horas": "Stunden an Projekten",
+                "designs": "Entwürfe erstellt",
+                "palavras": "geschriebene Wörter"
+            }
+        },
+        "servicos": {
+            "title": "Für Ihre Marke konzipierte und personalisierte Dienstleistungen",
+            "subtitle": "Was wir tun",
+            "btn": "Lernen Sie jede einzelne von ihnen kennen"
+        },
+        "video": "Das Kommunikations - Outsourcing ist eine Antwort auf den Wandel. Wir begegnen den neuen Anforderungen des Marktes mit einem multidisziplinären und strategischen Kommunikations- und Marketingteam, um die internen Kräfte, die sich auf das Kerngeschäft und strategische Maßnahmen konzentrieren, zu stärken und zu vergrößern. ",
+        "testimonial": {
+            "title": "Was sie über uns sagen"
+        },
+        "movingText": "Die Brücke zwischen Ihrer Marke und dem Markt.  "
+    },
+    "portfolio": {
+        "labels": {
+            "informacoes": "Projektinformationen",
+            "cliente": "Kunde",
+            "categoria": "Kategorie",
+            "localidade": "Örtlichkeit",
+            "desde": "Seit"
+        },
+        "netsafe": {
+            "subtitle": "Outsourcing der Kommunikation ",
+            "description": {
+                "title": "Das Team für operative Kommunikation und Marketing",
+                "subtitle": "Kommunikations-Outsourcing",
+                "text": "<p>NetSafe Corp ist ein Unternehmen, das seit 25 Jahren im Bereich der Informationssicherheit tätig ist. MA2 ist für den Aufbau des Kommunikations- und Marketingteams an allen Fronten verantwortlich und arbeitet dabei mit dem Marketing- und Relationship Director zusammen.</p><p>Wir bauen alle Kommunikationskanäle wie soziale Netzwerke, E-Book, Blog, PR (Pressestelle), Newsletter und E-Mail-Marketing auf und aus, strukturieren die interne Kommunikation und unterstützen alle Veranstaltungen und Aktionen des Unternehmens. </p>"
+            },
+            "dated": "Februar/2020",
+            "category": "Kommunikations-Outsourcing"
+        },
+        "acura": {
+            "subtitle": "Website und Outsourcing der Kommunikation",
+            "description": {
+                "title": "Neugestaltung und Auffrischung der Marke",
+                "subtitle": "Website & Outsourcing",
+                "text": "<p>Acura Capital ist ein Investmentmanager, der sich auf einkommensstarke Investoren und Risikokapitalgeber konzentriert. Gemeinsam mit dem Vorstand hat MA2 an der Neugestaltung der Marke gearbeitet, um dem Markt die Art und Weise zu vermitteln, wie das Unternehmen arbeitet und seine Produkte liefert: Raffinesse, Exzellenz und Pioniergeist. </p><p>Wir sind verantwortlich für die Entwicklung einer Website mit einem exklusiven Layout, das von unserem Team angepasst wurde, und für die Strukturierung der Kommunikationskanäle (soziale Netzwerke, Blog, PR und Newsletter), um die Marke effektiv zu kommunizieren.  </p>"
+            },
+            "dated": "Dezember/2022",
+            "category": "Website und Kommunikations-Outsourcing"
+        },
+        "impacta": {
+            "subtitle": "PR",
+            "description": {
+                "title": "Verstärken und kommunizieren ",
+                "subtitle": "PR",
+                "text": "<p>Die Impacta Tecnologia Group bildet seit 35 Jahren Fachleute für den Technologiemarkt aus. Mit ihrem Angebot an Kursen, welches von Grund- und Aufbaustudiengängen bis hin zu MBA- und Unternehmenskursen reicht, ist sie eine der führenden und anerkanntesten des Landes.  </p><p>Um die institutionellen Maßnahmen zu kommunizieren und die Marke durch Public Relations (PR) hervorzuheben, arbeitet MA2 mit dem Vorstand und dem Marketing zusammen, um relevante Inhalte auf den Markt zu bringen. </p>"
+            },
+            "dated": "Mai/2021",
+            "category": "PR"
+        },
+        "onclick": {
+            "subtitle": "Inhalt",
+            "description": {
+                "title": "Content Creation für die Plattformen",
+                "subtitle": "Inhalt",
+                "text": "<p>ONCLICK ist ein auf den Einzelhandel ausgerichtetes ERP-Unternehmen. Um sein Publikum anzusprechen, ist eine der wichtigsten Marketingstrategien das Content Marketing. Und genau in dieser Disziplin ist MA2 ihr strategischer Partner.</p><p>Das Content-Team kümmert sich um alles, von der Planung der monatlichen Themen bis hin zur Produktion spezifischer, personalisierter Inhalte für den Blog und die E-Books (Inhalt und Artwork). </p>"
+            },
+            "dated": "Juni/2020",
+            "category": "Inhalt"
+        },
+        "sw": {
+            "subtitle": "Inhalt & Übersetzung",
+            "description": {
+                "title": "Internationale Kommunikation ",
+                "subtitle": "Inhalt & Übersetzung",
+                "text": "<p>SECUREWAY ist ein Unternehmen für Sicherheit und Infrastruktur. Im Rahmen der Neuausrichtung des Marketings ist Content ein wesentlicher Pfeiler der Strategie. MA2 ist der Partner, der für die Erstellung der wöchentlichen Blogposts verantwortlich ist. </p><p>Darüber hinaus haben wir die gesamte Website für den Launch im Rahmen des Rebrandings der Marke 2022 neu geschrieben und sie nun im Rahmen der Internationalisierungsstrategie ins Englische und Spanische übersetzt. </p>"
+            },
+            "dated": "März/2021",
+            "category": "Inhalt & Übersetzung"
+        },
+        "neocount": {
+            "subtitle": "Soziale Medien & CI",
+            "description": {
+                "title": "Neue Kommunikation für die neue Marke",
+                "subtitle": "Soziale Medien & CI",
+                "text": "<p>Neocount ist die neue Marke von SW Contabilidade, die seit mehr als drei Jahrzehnten auf dem Markt von Espírito Santo tätig ist. Nach dem Rebranding wurde MA2 als strategischer Partner für die Entwicklung der Website und der gesamten Kommunikationsstruktur ausgewählt.</p><p>Wir sind verantwortlich für die Kommunikation in den sozialen Netzwerken, die Planung, den Inhalt und die Bilder, die Blogposts, die Kundenkommunikation und die Kommunikation mit den internen Teams, um die Markenkultur zu stärken, die bei Neocount sehr präsent ist. </p>"
+            },
+            "dated": "April/2023",
+            "category": "Soziale Medien & CI"
+        }
+    },
+    "testimonial": {
+        "acura": "Sehr gut vorbereitetes Team, sachkundig und sicher in dem, was sie tun. Verständlicher und ausgezeichneter Service. Sehr gut gemachte Grafiken und Inhalte, die das Business des Unternehmens erfüllen und zu ihm passen.",
+        "netsafe": "Alles lief reibungslos und die Fristen wurden immer eingehalten. Team 10!"
+    }
 }

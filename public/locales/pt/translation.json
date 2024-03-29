@@ -24,7 +24,7 @@
     "faleConosco2": "Você tem algum projeto em <br /> mente? Fale conosco.",
     "brasil": "Brasil",
     "alemanha": "Alemanha",
-    "textWidget":"Somos o outsourcing de comunicação para empresas do Brasil e do mundo",
+    "textWidget": "Somos o outsourcing de comunicação para empresas do Brasil e do mundo",
     "home": {
         "hero": {
             "title": "Outsourcing da Comunicação",
@@ -50,5 +50,78 @@
             "title": "O que falam sobre nós"
         },
         "movingText": "A ponte entre a voz da sua marca e o mercado.&nbsp;&nbsp;"
+    },
+    "portfolio": {
+        "labels": {
+            "informacoes": "Informações do Projeto",
+            "cliente": "Cliente",
+            "categoria": "Categoria",
+            "localidade": "Localidade",
+            "desde": "Desde"
+        },
+        "netsafe": {
+            "subtitle": "Outsourcing de Comunicação",
+            "description": {
+                "title": "O time operacional de comunicação e marketing ",
+                "subtitle": "Outsourcing de Comunicação",
+                "text": "<p>NetSafe Corp é uma empresa que atua há 25 anos no segmento de segurança da informação. A MA2 é responsável pela estrutura do time de comunicação e marketing em todas as frentes, trabalhando em conjunto com o diretor de marketing e relacionamento. </p><p>Construímos e ampliamos todos os canais de comunicação, como redes sociais, e-book, blog, PR (assessoria de imprensa), newsletter e e-mail marketing, estruturamos a comunicação interna e damos o suporte a todos os eventos e ações realizadas pela empresa.</p>"
+            },
+            "dated": "Fevereiro/2020",
+            "category": "Outsourcing de Comunicação"
+        },
+        "acura": {
+            "subtitle": "Site & Outsourcing de Comunicação",
+            "description": {
+                "title": "Reformulação e atualização da marca ",
+                "subtitle": "Site & Outsourcing",
+                "text": "<p>Acura Capital é uma gestora de investimentos focada no público de alta renda e investidores de risco. Juntamente com a diretoria, a MA2 atua na reconstrução da marca para conversar com o mercado da forma como atua e entrega os seus produtos: sofisticação, excelência e pioneirismo. </p><p>Somos os responsáveis pelo desenvolvimento de um website de layout exclusivo, feito sob medida pelo nosso time, e por estruturar os canais de comunicação (redes sociais, blog, PR e newsletter) para a marca comunicar com efetividade. </p>"
+            },
+            "dated": "Dezembro/2022",
+            "category": "Site e Outsourcing de Comunicação"
+        },
+        "impacta": {
+            "subtitle": "PR",
+            "description": {
+                "title": "Reforçar e comunicar",
+                "subtitle": "PR",
+                "text": "<p>O Grupo Impacta Tecnologia está há 35 anos formando profissionais para o mercado de tecnologia. Com cursos desde o tecnólogo e graduação, passa pela pós, MBA e corporativo, sendo um dos principais e mais reconhecidos do país. </p><p>Para comunicar as ações institucionais e destacar a marca por meio das Public Relations (PR), a MA2 atua juntamente à diretoria e ao Marketing, para trazer pautas relevantes ao mercado. </p>"
+            },
+            "dated": "Maio/2021",
+            "category": "PR"
+        },
+        "onclick": {
+            "subtitle": "Conteúdo",
+            "description": {
+                "title": "Produção para as plataformas",
+                "subtitle": "Conteúdo",
+                "text": "<p>ONCLICK é uma empresa de sistemas empresariais (ERP) com foco no varejo. Para conversar com o seu público, uma das principais estratégias do Marketing é o Marketing de Conteúdo. E é nesta disciplina que a MA2 é a sua parceria estratégica. </p><p>O time de conteúdo atua desde a elaboração do planejamento de temas mensais até a produção de conteúdos específicos e personalizados para o blog e para os e-books (conteúdo e arte). </p>"
+            },
+            "dated": "Junho/2020",
+            "category": "Conteúdo"
+        },
+        "sw": {
+            "subtitle": "Conteúdo & Tradução",
+            "description": {
+                "title": "Comunicação internacional",
+                "subtitle": "Conteúdo & Tradução",
+                "text": "<p>SECUREWAY é uma empresa de segurança e infraestrutura corporativa. Como parte da reestruturação do Marketing, o conteúdo é um pilar fundamental da estratégia. Com isso, a MA2 é o parceiro responsável pela produção dos blogposts semanais.</p><p>Além disso, reescrevemos todo o website para o lançamento juntamente com o rebranding, em 2022, e agora estamos traduzindo para o inglês e espanhol, como parte da estratégia de internacionalização da marca. </p>"
+            },
+            "dated": "Março/2021",
+            "category": "Conteúdo & Tradução"
+        },
+        "neocount": {
+            "subtitle": "Social Media & CI",
+            "description": {
+                "title": "Comunicação nova para a nova marca",
+                "subtitle": "Social Media & CI",
+                "text": "<p>Neocount é a nova marca da SW Contabilidade, que atua há mais de 3 décadas no mercado capixaba. Após o rebranding, a MA2 foi escolhida como a parceira estratégica para desenvolver o website e toda a estrutura de comunicação. </p><p>Somos os responsáveis pela comunicação nas redes sociais com a produção do planejamento, dos conteúdos e das imagens, dos blogposts, comunicados para os clientes e a comunicação com os times internos, reforçando a cultura de marca, que é bem presente na Neocount. </p>"
+            },
+            "dated": "Abril/2023",
+            "category": "Social Media & CI"
+        }
+    },
+    "testimonial": {
+        "acura": "Equipe muito preparada, com conhecimento e confiança no que fazer. Compreensíveis e possuem um ótimo atendimento. Arte muito bem feitas e conteúdos que atendem e fazem parte do business da empresa.",
+        "netsafe": "Tudo flui muito bem e os prazos são sempre atendidos. Equipe nota 10!"
     }
 }

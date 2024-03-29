@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 // import BlogDetailsPage from './components/Pages/BlogDetailsPage';
 // import ContactPage from './components/Pages/ContactPage';
 // import ErrorPage from './components/Pages/ErrorPage';
-// import Home from './components/Pages/Home';
+import Home from './components/Pages/Home';
 // import PortfolioDetailsPage from './components/Pages/PortfolioDetailsPage';
 // import ServiceDetailsPage from './components/Pages/ServiceDetailsPage';
 // import ServicesPage from './components/Pages/ServicesPage';
@@ -26,10 +26,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Layout />} /> 
-        {/* <Route path=":lang">
+        <Route path="/" element={<Layout />} > 
+       {/* <Route path=":lang"> */}
         <Route index element={<Home />} />
-          
+       {/*     
           
           <Route
             path="photography-agency"
@@ -75,8 +75,8 @@ function App() {
           <Route
             path="case-study-showcase"
             element={<CaseStudyShowcaseHome />}
-          />
-        </Route> */}
+          />*/}
+        </Route> 
         {/* <Route path="*" element={<ErrorPage />} /> */}
       </Routes>
     </>
