@@ -123,5 +123,61 @@
     "testimonial": {
         "acura": "Sehr gut vorbereitetes Team, sachkundig und sicher in dem, was sie tun. Verständlicher und ausgezeichneter Service. Sehr gut gemachte Grafiken und Inhalte, die das Business des Unternehmens erfüllen und zu ihm passen.",
         "netsafe": "Alles lief reibungslos und die Fristen wurden immer eingehalten. Team 10!"
+    },
+    "sobre": {
+        "heading": {
+            "title": "MA2",
+            "subtitle": "Outsourcing der Kommunikation Ihres Unternehmens in Brasilien und weltweit",
+            "pageLinkText": "Über uns"
+        },
+        "about": {
+            "title": "Wir sind/arbeiten strategisch, unermüdlich und multidisziplinär.",
+            "subtitle": "Über MA2",
+            "p1": "Wir verbinden Kommunikation und Design mit Marktkenntnis und Technologie, um ein neues Geschäftsmodell zu schaffen: Kommunikations - Outsourcing. ",
+            "p2": "Unsere DNA aus Innovation und Exzellenz liefert den nötigen Treibstoff für die Strukturierung der On- und Offline-Kommunikation von mutigen Unternehmen mit Wachstumsambitionen. Unser Hauptziel ist es, dass Marken mit ihrem selbstbewussten Auftreten auf nationalen und internationalen Märkten Ergebnisse erzielen.",
+            "p3": "Um dies zu erreichen, kombinieren wir Management-, Strategie- und Betriebsmaßnahmen mit den Veränderungen in der Welt und den technologischen Fortschritten, so dass die Unternehmen darauf vorbereitet sind, die Trends in ihren Segmenten mit Sprachgewalt und Relevanz zu antizipieren."
+        },
+        "why": {
+            "title": "Warum MA2?",
+            "subtitle": "",
+            "text": "Wir sind das Marketing- und Kommunikationsteam, das Marken mit einem selbstbewussten Tonfall in ihren Wirkungsbereichen in Brasilien und auf der ganzen Welt positioniert."
+        },
+        "team": {
+            "title": "MA Traumteam",
+            "subtitle": "Unserem Team"
+        },
+        "mission": {
+            "title": "Unsere Mission",
+            "text": "Die Unternehmensstimme für Marken zu sein, mit Exzellenz und Durchsetzungsvermögen, um mit ihren Zielmärkten, Investoren und Talenten zu kommunizieren."
+        },
+        "vision": {
+            "title": "Unsere Vision ",
+            "text": "Die führende Outsourcing-Referenz für die Kommunikation von Unternehmen zu sein, unabhängig davon, ob sie in Brasilien ansässig sind oder sich im Prozess der Internationalisierung befinden, ebenso wie für internationale Unternehmen, die ihre Kommunikation in Brasilien regionalisieren wollen, indem sie durch die Kommunikations- und Marketingdisziplinen greifbare Ergebnisse erzielen."
+        },
+        "values": {
+            "title": "Unsere Werte",
+            "subtitle": "Lernen Sie einige davon kennen",
+            "build": {
+                "title": "KOMMUNIKATION AUFBAUEN",
+                "subtitle": "Wir sind unermüdlich bei der Entwicklung einzigartiger Projekte, die Kreativität und Innovation vereinen."
+            },
+            "communicate": {
+                "title": "IDEEN KOMMUNIZIEREN",
+                "subtitle": "Wir achten auf jede Phase des Prozesses und die Lösung von Herausforderungen - von den einfachsten bis zu den komplexesten - durch die Integration von Talenten."
+            },
+            "translate": {
+                "title": "WERTE VERMITTELN",
+                "subtitle": "Wir kombinieren unser kulturelles und persönliches Repertoire, um Inhalte zu schaffen, die zum Nachdenken anregen und präzise Botschaften vermitteln."
+            },
+            "connect": {
+                "title": "ZIELE VERBINDEN",
+                "subtitle": "Wir verstehen Individualität und wollen jeden Mitarbeiter dazu befähigen, sich mit den Aktivitäten jedes Kunden zu verbinden, um so das Unternehmenswachstum zu fördern."
+            }
+        }
+    },
+    "team": {
+        "mari": "CEO",
+        "tati": "Leiter der Abteilung Inhalt",
+        "vitor": "Künstlerischer Leiter"
     }
 }

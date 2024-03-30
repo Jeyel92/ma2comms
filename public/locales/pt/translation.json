@@ -123,5 +123,61 @@
     "testimonial": {
         "acura": "Equipe muito preparada, com conhecimento e confiança no que fazer. Compreensíveis e possuem um ótimo atendimento. Arte muito bem feitas e conteúdos que atendem e fazem parte do business da empresa.",
         "netsafe": "Tudo flui muito bem e os prazos são sempre atendidos. Equipe nota 10!"
+    },
+    "sobre":{
+        "heading": {
+            "title": "MA2",
+            "subtitle": "O outsourcing de comunicação da sua empresa no Brasil e no mundo",
+            "pageLinkText": "Sobre Nós"
+        },
+        "about": {
+            "title": "Somos estratégicos, incansáveis e multidisciplinares.",
+            "subtitle": "Sobre a MA2",
+            "p1": "Combinamos a comunicação e o design com a inteligência de mercado e a tecnologia para criar um novo modelo de negócios: o outsourcing de comunicação.",
+            "p2": "Nosso DNA de inovação e excelência fornece o combustível necessário para estruturar a comunicação on e offline de empresas arrojadas com a ambição de crescer. Nosso maior propósito é que as marcas obtenham resultados a partir de seu tom de voz assertivo nos mercados nacionais e internacionais.",
+            "p3": "Para isso, juntamos as ações gerenciais, estratégicas e operacionais com as transformações do mundo e os avanços tecnológicos, de forma que as empresas estejam preparadas para antecipar as tendências em seus segmentos com autoridade de fala e relevância."
+        },
+        "why": {
+            "title": "Por que a MA2?",
+            "subtitle": "",
+            "text": " Somos o time de marketing e comunicação para posicionar marcas com tom de voz assertivo em seus segmentos de atuação no Brasil e no mundo."
+        },
+        "team": {
+            "title": "MA2 dream team",
+            "subtitle": "Nosso time"
+        },
+        "mission": {
+            "title": "Nossa missão",
+            "text": "Ser a voz corporativa com excelência e assertividade para que as marcas conversem com o seu mercado-alvo, investidores e talentos."
+        },
+        "vision": {
+            "title": "Nossa visão",
+            "text": "Ser a maior referência de outsourcing de comunicação para empresas, independentemente se elas estão no Brasil ou em processo de internacionalização, bem como, para empresas internacionais que queriam regionalizar sua comunicação para o Brasil, gerando resultados tangíveis por maio das disciplinas de comunicação e marketing."
+        },
+        "values": {
+            "title": "Nossos valores",
+            "subtitle": "Conheça alguns deles",
+            "build": {
+                "title": "CONSTRUIR COMUNICAÇÃO",
+                "subtitle": "Somos incansáveis na produção de projetos exclusivos que combinam a criatividade e a inovação."
+            },
+            "communicate": {
+                "title": "COMUNICAR IDEIAS",
+                "subtitle": "Valorizamos todas as etapas do processo e a solução de desafios — dos mais simples ao mais complexos —com a integração dos talentos."
+            },
+            "translate":{
+                "title":"TRADUZIR VALORES",
+                "subtitle":"Combinamos o repertório cultural e pessoal para conceber conteúdos instigantes com mensagens exatas. "
+            },
+            "connect":{
+                "title":"CONECTAR PROPÓSITOS",
+                "subtitle":"Entendemos a individualidade e nos propomos a capacitar cada colaborador para conectar as atividades de cada cliente, culminando com o crescimento do negócio."
+            }
+        }
+    },
+    "team":{
+        "mari": "CEO",
+        "tati": "Head de Conteúdo",
+        "vitor": "Head de Arte"
     }
 }

@@ -123,5 +123,61 @@
     "testimonial": {
         "acura": "Very well prepared team, with knowledge and confidence in what to do. Understanding and have great service. Very well-made designs and content that works and that correspond to the company's business.",
         "netsafe": "The processes run very well and deadlines are always met. A+ team!"
+    },
+    "sobre": {
+        "heading": {
+            "title": "MA2",
+            "subtitle": "Communication outsourcing for your company in Brazil and all around the world",
+            "pageLinkText": "About Us"
+        },
+        "about": {
+            "title": "We are strategic, tireless and multidisciplinary.",
+            "subtitle": "About MA2 ",
+            "p1": "We combine communication and design with market intelligence and technology to create a new business model: communication outsourcing.",
+            "p2": "Our DNA of innovation and excellence provides the necessary fuel to structure the on and offline communication of bold companies with the ambition to grow. Our main purpose is for brands to obtain results from their assertive tone of voice in national and international markets. ",
+            "p3": "In order to achieve this, we combine managerial, strategic and operational actions with innovation changes happening in the world and technological advances, so that companies are prepared to anticipate trends in their segments with authority and relevance."
+        },
+        "why": {
+            "title": "Why MA2?",
+            "subtitle": "",
+            "text": "We are the marketing and communications team to position brands with an assertive tone of voice in their operating segments in Brazil and all around the world."
+        },
+        "team": {
+            "title": "MA2 Dreamteam",
+            "subtitle": "Our Team"
+        },
+        "mission": {
+            "title": "Our mission",
+            "text": "Being the corporate voice with excellence and assertiveness so that brands can communicate with their target market, investors and talents. "
+        },
+        "vision": {
+            "title": "Our vision ",
+            "text": "To be the largest reference in communication outsourcing for companies, regardless of whether they are in Brazil or in the process of internationalization, as well as for international companies that wants to expand to Brazil, generating tangible results through most of the communication and marketing disciplines. "
+        },
+        "values": {
+            "title": "Our values",
+            "subtitle": "",
+            "build": {
+                "title": "BUILD COMMUNICATION ",
+                "subtitle": "We are tireless in producing exclusive projects that combine creativity and innovation. "
+            },
+            "communicate": {
+                "title": "COMMUNICATE IDEAS",
+                "subtitle": "We value all stages of the process and solving challenges — from the simplest to the most complex — with the talents integration."
+            },
+            "translate": {
+                "title": "TRANSLATE VALUES ",
+                "subtitle": "We combine cultural and personal repertoire to design attractive content with accurate messages. "
+            },
+            "connect": {
+                "title": "CONNECT PURPOSES ",
+                "subtitle": "We understand individuality and aim to train each employee to connect the activities of each client, culminating in business growth. "
+            }
+        }
+    },
+    "team": {
+        "mari": "CEO",
+        "tati": "Head of Content",
+        "vitor": "Art Director"
     }
 }

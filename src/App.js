@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-// import AboutPage from './components/Pages/AboutPage';
+import AboutPage from './components/Pages/AboutPage';
 // import BlogPage from './components/Pages/BlogPage';
 // import BlogDetailsPage from './components/Pages/BlogDetailsPage';
 // import ContactPage from './components/Pages/ContactPage';
@@ -29,6 +29,7 @@ function App() {
         <Route path="/" element={<Layout />} > 
        {/* <Route path=":lang"> */}
         <Route index element={<Home />} />
+        <Route path="sobre" element={<AboutPage />} />
        {/*     
           
           <Route
@@ -37,7 +38,7 @@ function App() {
           />
           <Route path="digital-agency" element={<DigitalAgencyHome />} />
           <Route path="marketing-agency" element={<MarketingAgencyHome />} />
-          <Route path="about" element={<AboutPage />} />
+         
           </Route>
           <Route path="service" element={<ServicesPage />} />
           <Route

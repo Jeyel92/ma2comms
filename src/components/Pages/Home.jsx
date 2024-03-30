@@ -20,18 +20,7 @@ import { useTranslation } from "react-i18next";
 export default function Home() {
   pageTitle("Home");
   const { t, i18n } = useTranslation();
-  // Hero Social Links
-  // const heroSocialLinks = [
-  //   {
-  //     name: 'Behance',
-  //     links: '/',
-  //   },
-  //   {
-  //     name: 'Twitter',
-  //     links: '/',
-  //   },
-  // ];
-
+ 
   // FunFact Data
   const funfaceData = [
     {
