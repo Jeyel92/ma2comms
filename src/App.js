@@ -7,7 +7,7 @@ import AboutPage from './components/Pages/AboutPage';
 import Home from './components/Pages/Home';
 // import PortfolioDetailsPage from './components/Pages/PortfolioDetailsPage';
 // import ServiceDetailsPage from './components/Pages/ServiceDetailsPage';
-// import ServicesPage from './components/Pages/ServicesPage';
+import ServicesPage from './components/Pages/ServicesPage';
 // import TeamPage from './components/Pages/TeamPage';
 // import PortfolioPage from './components/Pages/PortfolioPage';
 // import TeamDetails from './components/Pages/TeamDetails';
@@ -30,6 +30,7 @@ function App() {
        {/* <Route path=":lang"> */}
         <Route index element={<Home />} />
         <Route path="sobre" element={<AboutPage />} />
+        <Route path="servicos" element={<ServicesPage />} />
        {/*     
           
           <Route
@@ -40,7 +41,7 @@ function App() {
           <Route path="marketing-agency" element={<MarketingAgencyHome />} />
          
           </Route>
-          <Route path="service" element={<ServicesPage />} />
+          
           <Route
             path=":lang/service/:serviceDetailsId"
             element={<ServiceDetailsPage />}

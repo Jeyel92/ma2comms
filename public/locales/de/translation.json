@@ -7,7 +7,64 @@
     "servicos": {
         "planejar": "Analysieren und Planen",
         "criar": "Erstellen",
-        "propagar": "Propagieren"
+        "propagar": "Propagieren",
+        "heading": {
+            "title": "Kommunikations - Outsourcing",
+            "subtitle": "Entdecken Sie die auf Ihr Unternehmen zugeschnittenen Dienstleistungen",
+            "pageLinkText": "Service"
+        },
+        "iconSection": {
+            "title": "Entwickelt, um jede Phase des Geschäfts zu begleiten",
+            "subtitle": "MA2 Dienstleistungen",
+            "iconText": {
+                "planejar": "Dies ist der erste Schritt zur Strukturierung der Kommunikation und des Marketings Ihres Unternehmens entsprechend Ihrer Unternehmensstrategie.",
+                "criar": "In dieser Phase arbeitet das Kreativ- und Entwicklungsteam an der Erstellung von Bildmaterial und spezifischen Materialien für die Kommunikation Ihrer Marke. ",
+                "propagar": "Die Art und Weise, wie Ihre Marke intern und extern kommuniziert wird, macht den Unterschied aus, stärkt die Kultur und steigert die Ergebnisse."
+            }
+        },
+        "listaServicos": {
+            "text": "Alle Service-Leistungen, die MA2 durchführt, um Ihnen ein vollständiges Kommunikations-Outsourcing zu ermöglichen ",
+            "planejamento": "Planung",
+            "branding": "Markenbildung",
+            "materiais": "Institutionelle Materialien",
+            "website": "Website und Landing Page",
+            "videos": "Videos",
+            "conteudo": "Inhalt",
+            "blog": "Blog",
+            "ebook": "E-book",
+            "portal": "Nachrichten-Portal",
+            "redesSociais": "Soziale Medien",
+            "pr": "PR (Pressestelle)",
+            "comunicação": "Interne Kommunikation",
+            "tradução": "Übersetzung",
+            "campanhas": "Kampagnen und Verstärkung",
+            "gerenciamento": "Kommunikation und MKT-Management",
+            "operacionalização": "Operationalisierung von Kommunikation und MKT"
+        },
+        "faq": {
+            "title": "MA2 beantwortet Ihre Fragen",
+            "subtitle": "FAQ",
+            "Q1": {
+                "question": "1. Bedient MA2 nur große Unternehmen?",
+                "answer": "Nein, MA2 wurde als strategischer Partner für kleine und mittlere Unternehmen gegründet. Aber wir werden auch von großen Marken gewählt."
+            },
+            "Q2": {
+                "question": "2. Kann ich MA2 als alleinigen Service-Leister in Anspruch nehmen?",
+                "answer": "Ja, natürlich! Deshalb haben wir ein komplettes Portfolio, um die spezifischen Bedürfnisse jedes Unternehmens zu erfüllen. "
+            },
+            "Q3": {
+                "question": "3. Was ist Outsourcing von Kommunikation?",
+                "answer": "Es ist das modernste Kommunikations- und Marketingmodell, um Ihrem Unternehmen das zu liefern, was es in diesen Disziplinen braucht. Wir verfügen über ein multidisziplinäres und strategisches Team, um alle Phasen und Aktivitäten zu entwickeln."
+            },
+            "Q4": {
+                "question": "4. Ist mein Projekt personalisiert? ",
+                "answer": "Es ist 100% auf Ihr Unternehmen zugeschnitten. Unser Team versteht Ihre Struktur und Ihre Ziele, um ein strukturiertes und abgestuftes Programm zu erstellen, das jeden Moment strategisch und präzise verfolgt."
+            },
+            "Q5": {
+                "question": "5. Ist MA2 nur in Brasilien tätig? ",
+                "answer": "Nein, MA2 ist ein globales Unternehmen. Wir haben unseren Sitz in Brasilien (São Paulo) und Deutschland (Lübeck) und sind in Lateinamerika, den USA und vielen anderen Ländern tätig."
+            }
+        }
     },
     "cases": {
         "title": "Lernen Sie das MA2-Portfolio kennen",

@@ -7,7 +7,64 @@
     "servicos": {
         "planejar": "Planejar e Contar",
         "criar": "Criar",
-        "propagar": "Propagar"
+        "propagar": "Propagar",
+        "heading": {
+            "title": "Outsourcing da Comunicação",
+            "subtitle": "Conheça os serviços sob medida para a sua empresa",
+            "pageLinkText": "Serviços"
+        },
+        "iconSection": {
+            "title": "Desenhado para acompanhar cada etapa dos negócios",
+            "subtitle": "MA2 Services",
+            "iconText": {
+                "planejar": "É a primeira etapa para estruturar a comunicação e o marketing da sua empresa de acordo com a estratégia do negócio.",
+                "criar": "Neste momento, o time criativo e de desenvolvimento atua na criação visual e de materiais específicos para a sua marca comunicar. ",
+                "propagar": "A forma da sua marca se expressar desde o público interno até o externo é o que faz a diferença e reforça a cultura, impulsionando os resultados. "
+            }
+        },
+        "listaServicos": {
+            "text": " Todas as entregas que a MA2 realiza para te entregar o outsourcing completo de comunicação",
+            "planejamento": "Planejamento",
+            "branding": "Branding (Criação de Marca)",
+            "materiais": "Materiais institucionais",
+            "website": "Website e Landing Page",
+            "videos": "Vídeos",
+            "conteudo": "Conteúdo",
+            "blog": "Blog",
+            "ebook": "E-book",
+            "portal": "Portal de Notícias",
+            "redesSociais": "Redes Sociais",
+            "pr": "PR (Assessoria de Imprensa)",
+            "comunicação": "Comunicação Interna",
+            "tradução": "Tradução",
+            "campanhas": "Campanhas e Impulsionamento",
+            "gerenciamento": "Gerenciamento de Comunicação e MKT",
+            "operacionalização": "Operacionalização da Comunicação e MKT"
+        },
+        "faq": {
+            "title": "MA2 responde a sua dúvida",
+            "subtitle": "FAQ",
+            "Q1": {
+                "question": "1.A MA2 atende apenas empresas grandes?",
+                "answer": "Não, a MA2 nasceu para ser a parceira estratégica das pequenas e médias empresas. Mas também somos escolhidos por grandes marcas."
+            },
+            "Q2": {
+                "question": "2.Posso contratar apenas os serviços da MA2?",
+                "answer": "Com certeza! Por isso, contamos com o nosso portfólio completo para atender às necessidades específicas de cada negócio."
+            },
+            "Q3": {
+                "question": "3.O que é o outsourcing de comunicação?",
+                "answer": "É o modelo mais atual de comunicação e marketing para entregar à sua empresa o que ela precisa nestas disciplinas. Contamos com um time multidisciplinar e estratégico para desenvolver cada uma das etapas e atividades."
+            },
+            "Q4": {
+                "question": "4.O meu projeto é personalizado?",
+                "answer": "100% feito para o seu negócio. Nosso time entende a sua estrutura e os objetivos para criar um programa estruturado e faseado, acompanhando cada momento de forma estratégica e precisa."
+            },
+            "Q5": {
+                "question": "5.A MA2 atende apenas o Brasil?",
+                "answer": "Não, a MA2 é uma empresa global. Estamos sediados no Brasil (São Paulo) e na Alemanha (Lübeck), com atuação além desses países, na América Latina, nos EUA e muitos outros."
+            }
+        }
     },
     "cases": {
         "title": "Conheça o Portfólio MA2",
@@ -124,7 +181,7 @@
         "acura": "Equipe muito preparada, com conhecimento e confiança no que fazer. Compreensíveis e possuem um ótimo atendimento. Arte muito bem feitas e conteúdos que atendem e fazem parte do business da empresa.",
         "netsafe": "Tudo flui muito bem e os prazos são sempre atendidos. Equipe nota 10!"
     },
-    "sobre":{
+    "sobre": {
         "heading": {
             "title": "MA2",
             "subtitle": "O outsourcing de comunicação da sua empresa no Brasil e no mundo",
@@ -165,17 +222,17 @@
                 "title": "COMUNICAR IDEIAS",
                 "subtitle": "Valorizamos todas as etapas do processo e a solução de desafios — dos mais simples ao mais complexos —com a integração dos talentos."
             },
-            "translate":{
-                "title":"TRADUZIR VALORES",
-                "subtitle":"Combinamos o repertório cultural e pessoal para conceber conteúdos instigantes com mensagens exatas. "
+            "translate": {
+                "title": "TRADUZIR VALORES",
+                "subtitle": "Combinamos o repertório cultural e pessoal para conceber conteúdos instigantes com mensagens exatas. "
             },
-            "connect":{
-                "title":"CONECTAR PROPÓSITOS",
-                "subtitle":"Entendemos a individualidade e nos propomos a capacitar cada colaborador para conectar as atividades de cada cliente, culminando com o crescimento do negócio."
+            "connect": {
+                "title": "CONECTAR PROPÓSITOS",
+                "subtitle": "Entendemos a individualidade e nos propomos a capacitar cada colaborador para conectar as atividades de cada cliente, culminando com o crescimento do negócio."
             }
         }
     },
-    "team":{
+    "team": {
         "mari": "CEO",
         "tati": "Head de Conteúdo",
         "vitor": "Head de Arte"
