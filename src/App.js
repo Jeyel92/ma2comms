@@ -5,11 +5,11 @@ import AboutPage from './components/Pages/AboutPage';
 // import ContactPage from './components/Pages/ContactPage';
 // import ErrorPage from './components/Pages/ErrorPage';
 import Home from './components/Pages/Home';
-// import PortfolioDetailsPage from './components/Pages/PortfolioDetailsPage';
+import PortfolioDetailsPage from './components/Pages/PortfolioDetailsPage';
 // import ServiceDetailsPage from './components/Pages/ServiceDetailsPage';
 import ServicesPage from './components/Pages/ServicesPage';
 // import TeamPage from './components/Pages/TeamPage';
-// import PortfolioPage from './components/Pages/PortfolioPage';
+import PortfolioPage from './components/Pages/PortfolioPage';
 // import TeamDetails from './components/Pages/TeamDetails';
 // import PhotographyAgencyHome from './components/Pages/PhotographyAgencyHome';
 // import CreativePortfolioHome from './components/Pages/CreativePortfolioHome';
@@ -31,6 +31,11 @@ function App() {
         <Route index element={<Home />} />
         <Route path="sobre" element={<AboutPage />} />
         <Route path="servicos" element={<ServicesPage />} />
+        <Route path="portfolio" element={<PortfolioPage />} />
+        <Route
+            path="portfolio/:portfolioDetailsId"
+            element={<PortfolioDetailsPage />}
+          />
        {/*     
           
           <Route
@@ -46,7 +51,7 @@ function App() {
             path=":lang/service/:serviceDetailsId"
             element={<ServiceDetailsPage />}
           />
-          <Route path="portfolio" element={<PortfolioPage />} />
+         
           <Route
             path="portfolio/:portfolioDetailsId"
             element={<PortfolioDetailsPage />}
