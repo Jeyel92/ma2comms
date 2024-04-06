@@ -236,5 +236,17 @@
         "mari": "CEO",
         "tati": "Leiter der Abteilung Inhalt",
         "vitor": "Künstlerischer Leiter"
+    },
+    "blog": {
+        "heading": {
+            "title": "Unser Blog"
+        },
+        "sidebar": {
+            "categorias": "Kategorien",
+            "recentes": "Neueste Beiträge"
+        },
+        "loadMore": "Mehr Laden",
+        "readMore": "Mehr Lesen",
+        "categoryExplore": "Erkunden Sie die Veröffentlichungen von"
     }
 }

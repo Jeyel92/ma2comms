@@ -236,5 +236,16 @@
         "mari": "CEO",
         "tati": "Head of Content",
         "vitor": "Art Director"
+    },
+    "blog": {
+        "heading": {
+            "title": "Our Blog"
+        },
+        "sidebar": {
+            "categorias": "Categories",
+            "recentes": "Lastest Posts"
+        },
+        "loadMore": "Load more",
+        "readMore": "Read more"
     }
 }
