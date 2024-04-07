@@ -6,15 +6,25 @@ import {
   getLatestPostsQuery,
   getAllTagsQuery,
   getAllPostsQuery,
+  getPostQuery,
 } from "../helper/queries";
 
 const url = "https://ma2comms.com/ma2/graphql/";
 
+const swrConfig = {
+  revalidateIfStale: false,
+  revalidateOnFocus: false,
+  revalidateOnReconnect: false,
+};
+
 const fetcher = (query, variables) => request(url, query, variables);
 
 const fetcherPosts = async (cursor) => {
-    console.log(url, getAllPostsQuery, { after: cursor[0] || "" });
-  return await fetcher( getAllPostsQuery, { after: cursor[0] || "" });
+  return await fetcher(getAllPostsQuery, { after: cursor[0] || "" });
+};
+
+const fetcherPost = async (slug) => {
+  return await fetcher(getPostQuery, { id: slug, idType: "SLUG" });
 };
 
 const getKey = (pageIndex, previousPageData) => {
@@ -30,7 +40,8 @@ const getKey = (pageIndex, previousPageData) => {
 };
 
 export function useGetAllPosts() {
-  const { data, error, size, setSize, isValidating,isLoading } = useSWRInfinite(getKey, fetcherPosts);
+  const { data, error, size, setSize, isValidating, isLoading } =
+    useSWRInfinite(getKey, fetcherPosts, swrConfig);
 
   return {
     data,
@@ -38,11 +49,30 @@ export function useGetAllPosts() {
     setSize,
     error,
     isValidating,
-    isLoading
+    isLoading,
+  };
+}
+
+export function useGetPost(slug) {
+//   const { data, error, isLoading } = useSWR(
+//     {query:getPostQuery, variables:{ id: slug, idType: "SLUG" }},
+//     fetcher
+//     // ,
+//     // swrConfig
+//   );
+const { data, error, isLoading } = useSWR(slug,fetcherPost)
+    
+
+  console.log("data", data, error, isLoading);
+  return {
+    post: data?.post,
+    error,
+    isLoading,
+    
   };
 }
 export function useGetListCategories() {
-  const { data, error } = useSWR(getAllCategoriesQuery, fetcher);
+  const { data, error } = useSWR(getAllCategoriesQuery, fetcher, swrConfig);
 
   return {
     categories:
@@ -58,7 +88,7 @@ export function useGetListCategories() {
 }
 
 export function useGetLatestPosts() {
-  const { data, error } = useSWR(getLatestPostsQuery, fetcher);
+  const { data, error } = useSWR(getLatestPostsQuery, fetcher, swrConfig);
   return {
     latestsPosts:
       data?.posts?.edges.map(({ node }) => {
@@ -75,7 +105,7 @@ export function useGetLatestPosts() {
 }
 
 export function useGetTags() {
-  const { data, error } = useSWR(getAllTagsQuery, fetcher);
+  const { data, error } = useSWR(getAllTagsQuery, fetcher, swrConfig);
   return {
     tags:
       data?.tags?.edges.map(({ node }) => {

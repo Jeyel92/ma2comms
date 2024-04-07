@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import AboutPage from "./components/Pages/AboutPage";
 import BlogPage from "./components/Pages/BlogPage";
-// import BlogDetailsPage from './components/Pages/BlogDetailsPage';
+import BlogDetailsPage from './components/Pages/BlogDetailsPage';
 // import ContactPage from './components/Pages/ContactPage';
 // import ErrorPage from './components/Pages/ErrorPage';
 import Home from "./components/Pages/Home";
@@ -36,6 +36,7 @@ function App() {
             element={<PortfolioDetailsPage />}
           />
           <Route path="blog" element={<BlogPage />} />
+          <Route path="blog/:slug" element={<BlogDetailsPage />} />
           {/*     
           
           <Route
@@ -57,7 +58,7 @@ function App() {
             element={<PortfolioDetailsPage />}
           />
          
-          <Route path="blog/:blogDetailsId" element={<BlogDetailsPage />} />
+          
           <Route path="contact" element={<ContactPage />} />
           <Route path="team" element={<TeamPage />} />
           <Route path="team/:teamDetails" element={<TeamDetails />} />

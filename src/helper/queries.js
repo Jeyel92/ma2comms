@@ -1,32 +1,64 @@
 import { gql } from "graphql-request";
 
-export const getAllPostsQuery = gql`query AllPosts($after:String,$category:String) {
-    posts(where: {orderby: {field: DATE, order: DESC}, categoryName:$category}, first: 5,after:$after,  ) {   
+export const getAllPostsQuery = gql`
+  query AllPosts($after: String, $category: String) {
+    posts(
+      where: { orderby: { field: DATE, order: DESC }, categoryName: $category }
+      first: 5
+      after: $after
+    ) {
       pageInfo {
         hasNextPage
         endCursor
-      }        
-        edges {
-          node {
-            date
-            title
-            categories {
-              nodes {
-                name
-                slug
-                uri
-              }
+      }
+      edges {
+        node {
+          date
+          title
+          categories {
+            nodes {
+              name
+              slug
+              uri
             }
-            featuredImage {
-              node {
-                link
-              }
-            }
-           slug
           }
+          featuredImage {
+            node {
+              link
+            }
+          }
+          slug
         }
       }
-  }`
+    }
+  }
+`;
+
+export const getPostQuery = gql`
+  fragment PostFields on Post {
+    title
+    excerpt
+    slug
+    date
+    featuredImage {
+      node {
+        sourceUrl
+      }
+    }
+    categories {
+      nodes {
+        uri
+        name
+      }
+    }
+  }
+  query PostBySlug($id: ID!, $idType: PostIdType!) {
+    post(id: $id, idType: $idType) {
+      ...PostFields
+      content
+    }
+  }
+`;
 
 export const getAllCategoriesQuery = gql`
   query AllCategories {
