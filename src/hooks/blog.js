@@ -1,6 +1,6 @@
 import { request } from "graphql-request";
 import useSWR from "swr";
-import useSWRInfinite, { unstable_serialize } from "swr/infinite";
+import useSWRInfinite from "swr/infinite";
 import {
   getAllCategoriesQuery,
   getLatestPostsQuery,
@@ -19,12 +19,13 @@ const swrConfig = {
 
 const fetcher = (query, variables) => request(url, query, variables);
 
-const fetcherPosts = async (cursor) => {
-  return await fetcher(getAllPostsQuery, { after: cursor[0] || "" });
-};
-
-const fetcherPost = async (slug) => {
-  return await fetcher(getPostQuery, { id: slug, idType: "SLUG" });
+const fetcherPosts = async (cursor, category,tag) => {
+   
+  return await fetcher(getAllPostsQuery, {
+    after: cursor[0] || "",
+    category,
+    tag
+  });
 };
 
 const getKey = (pageIndex, previousPageData) => {
@@ -39,36 +40,38 @@ const getKey = (pageIndex, previousPageData) => {
   return [previousPageData.posts.pageInfo.endCursor];
 };
 
-export function useGetAllPosts() {
+export function useGetAllPosts({ categoryName ="", tag=""}) {	
+  
   const { data, error, size, setSize, isValidating, isLoading } =
-    useSWRInfinite(getKey, fetcherPosts, swrConfig);
+    useSWRInfinite(
+      (pageIndex, previousPageData) =>
+        getKey(pageIndex, previousPageData, categoryName,tag),
+      (cursor) => fetcherPosts(cursor, categoryName,tag),swrConfig
+ 
+    );
 
   return {
-    data,
+    postData: data,
     size,
     setSize,
     error,
     isValidating,
     isLoading,
+    hasNextPage: data?.[size - 1]?.posts?.pageInfo?.hasNextPage,
   };
 }
 
 export function useGetPost(slug) {
-//   const { data, error, isLoading } = useSWR(
-//     {query:getPostQuery, variables:{ id: slug, idType: "SLUG" }},
-//     fetcher
-//     // ,
-//     // swrConfig
-//   );
-const { data, error, isLoading } = useSWR(slug,fetcherPost)
-    
+  const { data, error, isLoading } = useSWR(
+    [getPostQuery, { id: slug, idType: "SLUG" }],
+    ([query, variables]) => fetcher(query, variables)
+    // swrConfig
+  );
 
-  console.log("data", data, error, isLoading);
   return {
     post: data?.post,
     error,
     isLoading,
-    
   };
 }
 export function useGetListCategories() {
@@ -93,7 +96,7 @@ export function useGetLatestPosts() {
     latestsPosts:
       data?.posts?.edges.map(({ node }) => {
         return {
-          href: node.slug,
+          href: `/blog/${node.slug}`,
           thumb: node.featuredImage?.node.link,
           date: node.date,
           title: node.title,
@@ -111,7 +114,7 @@ export function useGetTags() {
       data?.tags?.edges.map(({ node }) => {
         return {
           title: node.name,
-          url: node.slug,
+          url: `/blog/tag/${node.slug}`,
         };
       }) || [],
     isLoading: !error && !data,

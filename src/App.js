@@ -37,6 +37,8 @@ function App() {
           />
           <Route path="blog" element={<BlogPage />} />
           <Route path="blog/:slug" element={<BlogDetailsPage />} />
+          <Route path="blog/category/:categoryName" element={<BlogPage />} />
+          <Route path="blog/tag/:tagName" element={<BlogPage />} />
           {/*     
           
           <Route

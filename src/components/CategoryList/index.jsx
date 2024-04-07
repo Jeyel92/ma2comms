@@ -6,7 +6,7 @@ export default function CategoryList({ arrCategory }) {
       <span>
        
         {arrCategory.map((item, index) => (
-          <Link to={`/blog${item.uri}`} key={index} className="cs-post_avatar">
+          <Link to={`/blog${item.uri}`} key={index} className="cs-post_avatar" reloadDocument>
             {item.name}{total > index + 1 ? ', ' : ''}
           </Link>
           

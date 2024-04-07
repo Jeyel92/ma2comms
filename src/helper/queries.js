@@ -1,9 +1,9 @@
 import { gql } from "graphql-request";
 
 export const getAllPostsQuery = gql`
-  query AllPosts($after: String, $category: String) {
+  query AllPosts($after: String, $category: String, $tag: String) {
     posts(
-      where: { orderby: { field: DATE, order: DESC }, categoryName: $category }
+      where: { orderby: { field: DATE, order: DESC }, categoryName: $category,tag: $tag }
       first: 5
       after: $after
     ) {

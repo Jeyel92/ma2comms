@@ -10,7 +10,7 @@ export default function SideMenuWidget({title, data}) {
         {data?.map((item, index)=> (
           <li key={index}>
             <Icon icon="material-symbols:keyboard-double-arrow-right-rounded" />
-            <Link to={item.url} key={index}>{item.title}</Link>
+            <Link to={item.url} key={index} reloadDocument>{item.title}</Link>
           </li>
         ))}
       </ul>
