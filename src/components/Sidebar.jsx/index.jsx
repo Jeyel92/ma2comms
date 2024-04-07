@@ -4,9 +4,9 @@ import Div from "../Div";
 import RecentPost from '../Widget/RecentPost'
 // import SearchWidget from '../Widget/SearchWidget'
 import SideMenuWidget from "../Widget/SideMenuWidget";
-// import TagWidget from '../Widget/TagWidget'
+import TagWidget from '../Widget/TagWidget'
 
-import { useGetListCategories,useGetLatestPosts } from "../../hooks/blog";
+import { useGetListCategories,useGetLatestPosts, useGetTags } from "../../hooks/blog";
 
 import { useTranslation } from "react-i18next";
 export default function Sidebar() {
@@ -16,38 +16,8 @@ export default function Sidebar() {
 
   const { latestsPosts: recentPostData } = useGetLatestPosts();
   
-  const tagData = [
-    {
-      title: "Business",
-      url: "/",
-    },
-    {
-      title: "Agency",
-      url: "/",
-    },
-    {
-      title: "Artwork",
-      url: "/",
-    },
-    {
-      title: "Marketing",
-      url: "/",
-    },
-    {
-      title: "Information",
-      url: "/",
-    },
-    {
-      title: "Design",
-      url: "/",
-    },
-    {
-      title: "Wordpress",
-      url: "/",
-    },
-  ];
-
- 
+  const { tags: tagData } = useGetTags();
+  
  
   return (
     <>
@@ -60,9 +30,9 @@ export default function Sidebar() {
        <Div className="cs-sidebar_item">
         <RecentPost title={t('blog.sidebar.recentes')} data={recentPostData} />
       </Div>
-    {/*  <Div className="cs-sidebar_item">
+     <Div className="cs-sidebar_item">
         <TagWidget title="Tags" data={tagData} />
-      </Div> */}
+      </Div>
     </>
   );
 }
