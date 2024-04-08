@@ -105,3 +105,13 @@ export const getAllTagsQuery = gql`
     }
   }
 `;
+
+export const sendMailMutationQuery = gql `
+mutation SendEmail($form: SendEmailInput!) {
+    sendEmail(input: $form) {
+        message
+        origin
+        sent
+    }
+}
+`

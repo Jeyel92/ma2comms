@@ -248,5 +248,26 @@
         "loadMore": "Load more",
         "readMore": "Read more",
         "categoryExplore": "Explore the publications of"
+    },
+    "contato":{
+        "heading": {
+            "title": "You and MA2",
+            "pageLinkText": "Contact"
+        },
+        "details":{
+            "title": "What is your current project? Share with us!",
+            "subtitle": "Speak to our team of experts"
+        },
+        "form":{
+            "inputs":{
+                "name": "Full Name",
+                "email": "Email",
+                "project": "Project Type",
+                "phone": "Mobile",
+                "message": "Message",
+                "send": "Send Message"
+            }
+        }
+        
     }
 }

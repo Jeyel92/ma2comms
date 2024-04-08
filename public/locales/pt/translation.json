@@ -237,7 +237,7 @@
         "tati": "Head de Conteúdo",
         "vitor": "Head de Arte"
     },
-    "blog":{
+    "blog": {
         "heading": {
             "title": "Nosso Blog"
         },
@@ -248,5 +248,25 @@
         "loadMore": "Carregar mais",
         "readMore": "Ler mais",
         "categoryExplore": "Explore as publicações de"
+    },
+    "contato": {
+        "heading": {
+            "title": "Você e a MA2",
+            "pageLinkText": "Contato"
+        },
+        "details": {
+            "title": "Qual é o seu projeto atual? Compartilhe conosco! ",
+            "subtitle": "Fale com o nosso time de especialistas"
+        },
+        "form": {
+            "inputs": {
+                "name": "Nome",
+                "email": "Email",
+                "project": "Projeto",
+                "phone": "Telefone",
+                "message": "Mensagem",
+                "send": "Enviar"
+            }
+        }
     }
 }

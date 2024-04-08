@@ -248,5 +248,25 @@
         "loadMore": "Mehr Laden",
         "readMore": "Mehr Lesen",
         "categoryExplore": "Erkunden Sie die Veröffentlichungen von"
+    },
+    "contato":{
+        "heading": {
+            "title": "Sie und MA2",        
+            "pageLinkText": "Kontakt"
+        },
+        "details":{
+            "title": "Was ist Ihr aktuelles Projekt? <br />Teilen Sie es mit uns!",
+            "subtitle": "Sprechen Sie mit unserem Expertenteam"
+        },
+        "form":{
+            "inputs":{
+                "name": "Name",
+                "email": "E-Mail",
+                "project": "Projekt",
+                "phone": "Telefon",
+                "message": "Nachricht",
+                "send": "Senden Sie"
+            }
+        }
     }
 }

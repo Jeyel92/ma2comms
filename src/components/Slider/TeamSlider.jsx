@@ -28,7 +28,7 @@ export default function TeamSlider({ memberIndex }) {
     },
   ];
   if (memberIndex !== undefined) {
-    teamData = teamData.filter((x, index) => index == memberIndex);
+    teamData = teamData.filter((x, index) => index === memberIndex);
   }
   /** Slider Settings **/
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
