@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation  } from "react-router-dom";
 import SocialWidget from "../Widget/SocialWidget";
 // import Newsletter from '../Widget/Newsletter';
 import "./header.scss";
@@ -8,12 +8,14 @@ import Div from "../Div";
 // import DropDown from './DropDown';
 import { useTranslation } from "react-i18next";
 import  Link from "../Link";
-
+import LanguageSwitchLink from "../LanguageSwitchLink";
 export default function Header({ variant }) {
+  const location = useLocation();
   const { t, i18n } = useTranslation();
   const [isSticky, setIsSticky] = useState(false);
   const [sideHeaderToggle, setSideHeaderToggle] = useState(false);
   const [mobileToggle, setMobileToggle] = useState(false);
+  const currentLocale = i18n.resolvedLanguage || location.pathname.split("/")[1]?.match("pt|de|en") || "";
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 0) {
@@ -96,7 +98,7 @@ export default function Header({ variant }) {
                       </NavLink>
                     </li>
                     <li className="menu-item-has-children">
-                      {/* <LanguageSwitchLink currentLocale={currentLocale} locales={i18nextConfig.i18n.locales} /> */}
+                      <LanguageSwitchLink currentLocale={currentLocale}  />
                     </li>
                   </ul>
                   <span

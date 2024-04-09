@@ -17,5 +17,5 @@ i18n
     fallbackLng: "pt",
   });
 //  i18n.languages = ["en", "pt","de"];
-
+i18n.on('languageChanged', (lng) => {document.documentElement.setAttribute('lang', lng);})
 export default i18n;
