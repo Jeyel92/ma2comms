@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
-import SocialWidget from '../Widget/SocialWidget';
+import { NavLink } from "react-router-dom";
+import SocialWidget from "../Widget/SocialWidget";
 // import Newsletter from '../Widget/Newsletter';
 import "./header.scss";
-import ContactInfoWidget from '../Widget/ContactInfoWidget';
+import ContactInfoWidget from "../Widget/ContactInfoWidget";
 import Div from "../Div";
 // import DropDown from './DropDown';
 import { useTranslation } from "react-i18next";
+import  Link from "../Link";
 
 export default function Header({ variant }) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [isSticky, setIsSticky] = useState(false);
   const [sideHeaderToggle, setSideHeaderToggle] = useState(false);
   const [mobileToggle, setMobileToggle] = useState(false);
@@ -56,7 +57,7 @@ export default function Header({ variant }) {
                     </li>
                     <li>
                       <NavLink
-                        to="/sobre"
+                        to={`/${i18n.resolvedLanguage}/sobre`}
                         onClick={() => setMobileToggle(false)}
                       >
                         {t("menu.sobre")}
@@ -64,7 +65,7 @@ export default function Header({ variant }) {
                     </li>
                     <li>
                       <NavLink
-                        to="/servicos"
+                        to={`/${i18n.resolvedLanguage}/servicos`}
                         onClick={() => setMobileToggle(false)}
                       >
                         {t("menu.servicos")}
@@ -72,7 +73,7 @@ export default function Header({ variant }) {
                     </li>
                     <li>
                       <NavLink
-                        to="/portfolio"
+                        to={`/${i18n.resolvedLanguage}/portfolio`}
                         onClick={() => setMobileToggle(false)}
                       >
                         {t("menu.cases")}
@@ -80,7 +81,7 @@ export default function Header({ variant }) {
                     </li>
                     <li>
                       <NavLink
-                        to="/blog"
+                        to={`/${i18n.resolvedLanguage}/blog`}
                         onClick={() => setMobileToggle(false)}
                       >
                         {t("menu.blog")}
@@ -88,7 +89,7 @@ export default function Header({ variant }) {
                     </li>
                     <li>
                       <NavLink
-                        to="/contato"
+                        to={`/${i18n.resolvedLanguage}/contato`}
                         onClick={() => setMobileToggle(false)}
                       >
                         {t("menu.contato")}
@@ -171,7 +172,7 @@ export default function Header({ variant }) {
           </Div> */}
           <Div className="cs-side_header_box">
             <SocialWidget />
-          </Div> 
+          </Div>
         </Div>
       </Div>
     </>

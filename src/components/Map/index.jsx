@@ -5,7 +5,7 @@ export default function Map() {
   const mapCenter = useMemo(() => ({ lat: 5.394960, lng: -25.977414 }), []);
   
   const {isLoaded} = useJsApiLoader({
-    googleMapsApiKey: "",
+    googleMapsApiKey: "AIzaSyBu2vKKH_fvvuQaCqMFDsVxgFiPPzcfSrI",
     libraries: libraries,
   });
   const mapOptions = useMemo(

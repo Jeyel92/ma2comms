@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom';
+import  Link from "../Link";
 
 export default function MenuWidget({menuItems, menuHeading, variant, headingHref}) {
   let contentMenuHeading = (headingHref) ? <Link href={headingHref}>{menuHeading}</Link> : menuHeading;

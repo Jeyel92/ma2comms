@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-
+// import { Link } from "react-router-dom";
+import  Link from "../Link";
 export default function CategoryList({ arrCategory }) {
     const total = arrCategory.length
     return (

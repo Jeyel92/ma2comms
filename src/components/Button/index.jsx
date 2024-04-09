@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
-import { Link } from 'react-router-dom';
-
+// import { Link } from 'react-router-dom';
+import  Link from "../Link";
 export default function Button({ btnLink, btnText, variant, icon }) {
   return (
     <Link

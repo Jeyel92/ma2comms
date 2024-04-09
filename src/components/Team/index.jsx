@@ -1,7 +1,8 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
 import './team.scss'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import  Link from "../Link";
 import Div from '../Div';
 
 export default function Team({memberImage, memberName, memberDesignation, memberSocial}) {

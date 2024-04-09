@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import  Link from "../Link";
 import Button from "../Button";
 import Div from "../Div";
 import "./post.scss";

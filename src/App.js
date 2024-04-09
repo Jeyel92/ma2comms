@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import AboutPage from "./components/Pages/AboutPage";
 import BlogPage from "./components/Pages/BlogPage";
-import BlogDetailsPage from './components/Pages/BlogDetailsPage';
-import ContactPage from './components/Pages/ContactPage';
-// import ErrorPage from './components/Pages/ErrorPage';
+import BlogDetailsPage from "./components/Pages/BlogDetailsPage";
+import ContactPage from "./components/Pages/ContactPage";
+import ErrorPage from "./components/Pages/ErrorPage";
 import Home from "./components/Pages/Home";
 import PortfolioDetailsPage from "./components/Pages/PortfolioDetailsPage";
 // import ServiceDetailsPage from './components/Pages/ServiceDetailsPage';
@@ -22,24 +22,31 @@ import Layout from "./components/Layout";
 // import FaqPage from './components/Pages/FaqPage';
 
 function App() {
+  const routes = (
+    <Route>
+      <Route index element={<Home />} />
+      <Route path="sobre" element={<AboutPage />} />
+      <Route path="servicos" element={<ServicesPage />} />
+      <Route path="portfolio" element={<PortfolioPage />} />
+      <Route
+        path="portfolio/:portfolioDetailsId"
+        element={<PortfolioDetailsPage />}
+      />
+      <Route path="blog" element={<BlogPage />} />
+      <Route path="blog/:slug" element={<BlogDetailsPage />} />
+      <Route path="blog/category/:categoryName" element={<BlogPage />} />
+      <Route path="blog/tag/:tagName" element={<BlogPage />} />
+      <Route path="contato" element={<ContactPage />} />
+    </Route>
+  );
   return (
     <>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          {/* <Route path=":lang"> */}
-          <Route index element={<Home />} />
-          <Route path="sobre" element={<AboutPage />} />
-          <Route path="servicos" element={<ServicesPage />} />
-          <Route path="portfolio" element={<PortfolioPage />} />
-          <Route
-            path="portfolio/:portfolioDetailsId"
-            element={<PortfolioDetailsPage />}
-          />
-          <Route path="blog" element={<BlogPage />} />
-          <Route path="blog/:slug" element={<BlogDetailsPage />} />
-          <Route path="blog/category/:categoryName" element={<BlogPage />} />
-          <Route path="blog/tag/:tagName" element={<BlogPage />} />
-          <Route path="contact" element={<ContactPage />} />
+        <Route path="/" element={<Layout />}>          
+          {routes}
+          <Route path="pt">{routes}</Route>
+          <Route path="en">{routes}</Route>
+          <Route path="de">{routes}</Route>
           {/*     
           
           <Route
@@ -88,7 +95,7 @@ function App() {
             element={<CaseStudyShowcaseHome />}
           />*/}
         </Route>
-        {/* <Route path="*" element={<ErrorPage />} /> */}
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>
   );
