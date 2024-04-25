@@ -1,6 +1,6 @@
 import { Icon } from "@iconify/react";
 import React, { useEffect } from "react";
-import {  useParams } from "react-router-dom";
+import {  useParams,useLocation } from "react-router-dom";
 
 import { pageTitle, formatDate } from "../../helper";
 import Cta from "../Cta";
@@ -12,7 +12,9 @@ import { useGetPost } from "../../hooks/blog";
 import CategoryList from "../CategoryList";
 import { useTranslation } from "react-i18next";
 export default function BlogDetailsPage() {
-  const { t } = useTranslation();
+  const location = useLocation();
+  const { t,i18n } = useTranslation();
+  const currentLocale = i18n.resolvedLanguage || location.pathname.split("/")[1]?.match("pt|de|en") || "";
   const params = useParams();
 
   const slug = params.slug;
@@ -26,7 +28,7 @@ export default function BlogDetailsPage() {
   if (isLoading)
     return (
       <>
-        <p>'loading...'</p>
+        {/* <p>'loading...'</p> */}
       </>
     );
 
@@ -76,7 +78,7 @@ export default function BlogDetailsPage() {
           <Div className="col-xl-3 col-lg-4 offset-xl-1">
             {/* Start Sidebar */}
             <Spacing lg="0" md="80" />
-            <Sidebar />
+            <Sidebar currentLanguage={currentLocale}/>
             {/* End Sidebar */}
           </Div>
         </Div>

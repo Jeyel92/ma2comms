@@ -12,7 +12,7 @@ export default function RecentPost({title, data}) {
           <li key={index}>
             <Div className="cs-recent_post">
               <Link to={item.href} className="cs-recent_post_thumb">
-                <Div className="cs-recent_post_thumb_in cs-bg" style={{backgroundImage: `url(${item.thumb})`}} />
+                <Div className="cs-recent_post_thumb_in cs-bg" style={{backgroundImage: `url(${item.thumb ? item.thumb : '/images/logo_roxo.svg'})`}} />
               </Link>
               <Div className="cs-recent_post_info">
                 <h3 className="cs-recent_post_title"><Link to={item.href}>{item.title}</Link></h3>

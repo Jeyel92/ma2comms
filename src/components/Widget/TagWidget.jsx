@@ -8,7 +8,7 @@ export default function TagWidget({title, data}) {
     <>
       <h4 className="cs-sidebar_widget_title">{title}</h4>
       <Div className="tagcloud">
-        {data?.map((tag, index)=> (
+        {data?.slice(0, 10).map((tag, index)=> (
           <Link to={tag.url} className="tag-cloud-link" key={index} reloadDocument>{tag.title}</Link>
         ))}
       </Div>

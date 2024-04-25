@@ -1,9 +1,9 @@
 import { gql } from "graphql-request";
 
 export const getAllPostsQuery = gql`
-  query AllPosts($after: String, $category: String, $tag: String) {
+  query AllPosts($after: String, $category: String, $tag: String, $language: String) {
     posts(
-      where: { orderby: { field: DATE, order: DESC }, categoryName: $category,tag: $tag }
+      where: { orderby: { field: DATE, order: DESC }, categoryName: $category,tag: $tag, language: $language }
       first: 5
       after: $after
     ) {
@@ -61,22 +61,29 @@ export const getPostQuery = gql`
 `;
 
 export const getAllCategoriesQuery = gql`
-  query AllCategories {
-    categories(where: { orderby: NAME }) {
-      edges {
-        node {
-          name
-          uri
-          slug
+query AllCategories($language: String) {
+  categories(where: {orderby: NAME}) {
+    edges {
+      node {
+        name
+        uri
+        slug
+        posts(where: {language: $language}) {
+          edges {
+            node {
+              id
+            }
+          }
         }
       }
     }
   }
+}
 `;
 
 export const getLatestPostsQuery = gql`
-  query LatestsPosts {
-    posts(where: { orderby: { field: DATE, order: DESC } }, first: 5) {
+  query LatestsPosts($language: String) {
+    posts(where: { orderby: { field: DATE, order: DESC }, language: $language  }, first: 5) {
       edges {
         node {
           date
@@ -94,16 +101,21 @@ export const getLatestPostsQuery = gql`
 `;
 
 export const getAllTagsQuery = gql`
-  query AllTags {
-    tags(first: 10) {
-      edges {
-        node {
-          name
-          slug
+query AllTags($language: String) {
+  tags(first: 100) {
+    edges {
+      node {
+        name
+        slug
+        posts(where: {language: $language}) {
+          nodes {
+            id
+          }
         }
       }
     }
   }
+}
 `;
 
 export const sendMailMutationQuery = gql `

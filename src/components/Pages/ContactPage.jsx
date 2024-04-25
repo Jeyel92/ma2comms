@@ -64,7 +64,7 @@ export default function ContactPage() {
     formContato.body = emailContent;
     try {
       const result = await trigger({ formContato });
-      console.log(result);
+      // console.log(result);
 
       // if (!data.sent) {
       //   throw new Error(`Invalid response: ${data.message}`);

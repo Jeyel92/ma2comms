@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect} from "react";
 import { useParams,useLocation  } from "react-router-dom";
 import { pageTitle, formatDate } from "../../helper";
 import Cta from "../Cta";
@@ -11,14 +11,16 @@ import Spacing from "../Spacing";
 import { useGetAllPosts } from "../../hooks/blog";
 import { useTranslation } from "react-i18next";
 export default function BlogPage() {
-  const { t } = useTranslation();
-
+ const location = useLocation();
+  const { t,i18n } = useTranslation();
+  const currentLocale = i18n.resolvedLanguage || location.pathname.split("/")[1]?.match("pt|de|en") || "";
   const params = useParams();
-  const location = useLocation();
+ 
 
   const filters={
     categoryName:"",
-    tag:""
+    tag:"",
+    language: currentLocale
   }
 
   if(location.pathname.includes('category')){
@@ -84,7 +86,7 @@ export default function BlogPage() {
           </Div>
           <Div className="col-xl-3 col-lg-4 offset-xl-1">
             <Spacing lg="0" md="80" />
-            <Sidebar />
+            <Sidebar currentLanguage={currentLocale} />
           </Div>
         </Div>
       </Div>

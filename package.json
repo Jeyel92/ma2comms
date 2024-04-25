@@ -1,5 +1,6 @@
 {
   "name": "ma2comm-react",
+  "homepage": "https://ma2comms.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

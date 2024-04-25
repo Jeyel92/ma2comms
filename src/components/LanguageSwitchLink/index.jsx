@@ -31,42 +31,21 @@ export default function LanguageSwitchLink({
           {Object.keys(locales).map((locale) => {
             let href = location.pathname;
             let pName = location.pathname;
-            // location.pathname.split("/")[1]?.match("pt|de|en")
+            
             if (locale === currentLocale) return null;
             
             const langPath = pName.split("/")[1]
 
-            // console.log("langPath",langPath)
-            // console.log("pName",pName)
-            // console.log("rest",rest.href)
-            // console.log("teste",pName.replace(langPath, locale) )
-
+          
             href = pName.replace(langPath, locale)
-            console.log("href",href)
-            // Object.keys(location.searchParams).forEach((k) => {
-            //   if (k === "locale") {
-            //     pName = pName.replace(`[${k}]`, locale);
-
-            //     return;
-            //   }
-
-            //   pName = pName.replace(`[${k}]`, location.searchParams[k]);
-            // });
-            // if (locale) {
-            //   href = rest.href ? `/${locale}${rest.href}` : pName;
-            // }
-            // onClick={() =>  i18n.changeLanguage(locale)}
-
-            // let href = props.to || location.pathname;
-            // if (href.indexOf("http") === 0) skipLocaleHandling = true;
-            // if (locale && !skipLocaleHandling) {
-              // href = href ? `/${locale}${href}` : location.pathname;
-            // }
+        
+        
             return (
               <li key={locale}>
                 <Link
                   to={href}
                   onClick={() =>  i18n.changeLanguage(locale)}
+                  reloadDocument
                 >
                   <span className={`fi 	${locales[locale].icon}`}></span>
                   {locales[locale].text}
@@ -77,23 +56,7 @@ export default function LanguageSwitchLink({
         </ul>
       </DropDown>
     </>
-    // <Link href={href} onClick={() => languageDetector.cache(locale)}>
-    //     {/*  <span className="fi fi-gr fis"></span> */}
-    //   <button><span className={`fi 	${links[locale].icon}`}></span>{links[locale].text}</button>
-    // </Link>
+  
   );
 }
-{
-  /* 
 
-<ul>
-
-{i18nextConfig.i18n.
-if (locale === currentLocale) return null;
-return (
- <li key={locale}> <LanguageSwitchLink locale={locale}  /></li>
-);
-})}
-</ul>
-</DropDown> */
-}

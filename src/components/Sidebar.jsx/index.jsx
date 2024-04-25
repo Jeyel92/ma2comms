@@ -9,14 +9,15 @@ import TagWidget from '../Widget/TagWidget'
 import { useGetListCategories,useGetLatestPosts, useGetTags } from "../../hooks/blog";
 
 import { useTranslation } from "react-i18next";
-export default function Sidebar() {
+export default function Sidebar({currentLanguage}) {
+
   const { t } = useTranslation();
   
-  const { categories: categoryData } = useGetListCategories();
+  const { categories: categoryData } = useGetListCategories(currentLanguage);
 
-  const { latestsPosts: recentPostData } = useGetLatestPosts();
+  const { latestsPosts: recentPostData } = useGetLatestPosts(currentLanguage);
   
-  const { tags: tagData } = useGetTags();
+  const { tags: tagData } = useGetTags(currentLanguage);
   
  
   return (

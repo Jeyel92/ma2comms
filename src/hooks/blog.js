@@ -19,12 +19,12 @@ const swrConfig = {
 
 const fetcher = (query, variables) => request(url, query, variables);
 
-const fetcherPosts = async (cursor, category,tag) => {
+const fetcherPosts = async (cursor, category,tag, language) => {
    
   return await fetcher(getAllPostsQuery, {
     after: cursor[0] || "",
     category,
-    tag
+    tag, language
   });
 };
 
@@ -40,13 +40,14 @@ const getKey = (pageIndex, previousPageData) => {
   return [previousPageData.posts.pageInfo.endCursor];
 };
 
-export function useGetAllPosts({ categoryName ="", tag=""}) {	
+export function useGetAllPosts({ categoryName ="", tag="", language="pt"}) {	
   
   const { data, error, size, setSize, isValidating, isLoading } =
     useSWRInfinite(
       (pageIndex, previousPageData) =>
-        getKey(pageIndex, previousPageData, categoryName,tag),
-      (cursor) => fetcherPosts(cursor, categoryName,tag),swrConfig
+        getKey(pageIndex, previousPageData, categoryName,tag, language),
+      (cursor) => fetcherPosts(cursor, categoryName,tag, language)
+      // ,swrConfig
  
     );
 
@@ -74,12 +75,12 @@ export function useGetPost(slug) {
     isLoading,
   };
 }
-export function useGetListCategories() {
-  const { data, error } = useSWR(getAllCategoriesQuery, fetcher, swrConfig);
-
+export function useGetListCategories(language="pt") {
+  const { data, error } = useSWR([getAllCategoriesQuery, { language }], ([query, variables]) => fetcher(query, variables), swrConfig);
+  
   return {
     categories:
-      data?.categories?.edges.map(({ node }) => {
+      data?.categories?.edges.filter((category) =>  category.node.posts.edges.length > 0).map(({ node }) => {
         return {
           title: node.name,
           url: `/blog${node.uri}`,
@@ -90,8 +91,8 @@ export function useGetListCategories() {
   };
 }
 
-export function useGetLatestPosts() {
-  const { data, error } = useSWR(getLatestPostsQuery, fetcher, swrConfig);
+export function useGetLatestPosts(language="pt") {
+  const { data, error } = useSWR([getLatestPostsQuery, { language }], ([query, variables]) => fetcher(query, variables), swrConfig);
   return {
     latestsPosts:
       data?.posts?.edges.map(({ node }) => {
@@ -107,11 +108,14 @@ export function useGetLatestPosts() {
   };
 }
 
-export function useGetTags() {
-  const { data, error } = useSWR(getAllTagsQuery, fetcher, swrConfig);
+export function useGetTags(language="pt") {
+  const { data, error } = useSWR([getAllTagsQuery, { language }], ([query, variables]) => fetcher(query, variables),  swrConfig);
+
+
   return {
     tags:
-      data?.tags?.edges.map(({ node }) => {
+    data?.tags?.edges.filter((tag) => tag.node.posts?.nodes?.length > 0).map(({ node }) => {
+        
         return {
           title: node.name,
           url: `/blog/tag/${node.slug}`,
