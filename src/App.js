@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom";
+import { useEffect } from 'react';
+import { Route, Routes,useLocation  } from "react-router-dom";
 import AboutPage from "./components/Pages/AboutPage";
 import BlogPage from "./components/Pages/BlogPage";
 import BlogDetailsPage from "./components/Pages/BlogDetailsPage";
@@ -20,6 +21,7 @@ import PortfolioPage from "./components/Pages/PortfolioPage";
 import Layout from "./components/Layout";
 // import CaseStudyDetailsPage from './components/Pages/CaseStudyDetailsPage';
 // import FaqPage from './components/Pages/FaqPage';
+import ReactGA from 'react-ga';
 
 function App() {
   const routes = (
@@ -39,6 +41,11 @@ function App() {
       <Route path="contato" element={<ContactPage />} />
     </Route>
   );
+
+  const location = useLocation();
+  useEffect(() => {
+    ReactGA.pageview(location.pathname + location.search);
+  }, [location]);
   return (
     <>
       <Routes>

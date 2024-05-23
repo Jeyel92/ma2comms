@@ -7,7 +7,10 @@ import "slick-carousel/slick/slick.css";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import "./scss/index.scss";
 import "./i18n";
+import ReactGA from 'react-ga';
 
+const TRACKING_ID = "UA-167643587-1"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
