@@ -14,16 +14,16 @@
             "pageLinkText": "Serviços"
         },
         "iconSection": {
-            "title": "Desenhado para acompanhar cada etapa dos negócios",
-            "subtitle": "MA2 Services",
+            "title": "Acompanhamos cada etapa do seu negócio",
+            "subtitle": "Estruturamos, criamos e executamos todo o seu plano de comunicação",
             "iconText": {
                 "planejar": "É a primeira etapa para estruturar a comunicação e o marketing da sua empresa de acordo com a estratégia do negócio.",
                 "criar": "Neste momento, o time criativo e de desenvolvimento atua na criação visual e de materiais específicos para a sua marca comunicar. ",
-                "propagar": "A forma da sua marca se expressar desde o público interno até o externo é o que faz a diferença e reforça a cultura, impulsionando os resultados. "
+                "propagar": "Todos os dias são pensados para atrair e reter o seu público interno (colaboradores) e externo (parceiros e público-alvo). Assim, reforçamos a cultura e impulsionamos os resultados."
             }
         },
         "listaServicos": {
-            "text": " Todas as entregas que a MA2 realiza para te entregar o outsourcing completo de comunicação",
+            "text": " Todas as soluções que a MA2 Comms oferece para te entregar o outsourcing completo de comunicação",
             "planejamento": "Planejamento",
             "branding": "Branding (Criação de Marca)",
             "materiais": "Materiais institucionais",
@@ -35,11 +35,11 @@
             "portal": "Portal de Notícias",
             "redesSociais": "Redes Sociais",
             "pr": "PR (Assessoria de Imprensa)",
-            "comunicação": "Comunicação Interna",
-            "tradução": "Tradução",
-            "campanhas": "Campanhas e Impulsionamento",
-            "gerenciamento": "Gerenciamento de Comunicação e MKT",
-            "operacionalização": "Operacionalização da Comunicação e MKT"
+            "comunicacao": "Internacionalização",
+            "traducao": "Tradução/Localização de conteúdo",
+            "campanhas": "Campanhas",
+            "gerenciamento": "Gerenciamento de Comunicação e Marketing",
+            "operacionalizacao": "Operacionalização da Comunicação e Marketing"
         },
         "faq": {
             "title": "MA2 responde a sua dúvida",
@@ -88,8 +88,8 @@
             "subtitle": "A ponte entre a voz da sua marca e o mercado"
         },
         "funFact": {
-            "title": "Comunicação como negócio",
-            "subtitle": "As empresas que entendem comunicação e marketing como parte estratégica alavancam mais rápido e obtêm melhores resultados",
+            "title": "Comunicação alavanca negócios",
+            "subtitle": "Deixe o marketing e a comunicação da sua empresa conosco para focar no seu core business.",
             "data": {
                 "clientes": "Clientes",
                 "horas": "Horas de Projetos",
@@ -102,7 +102,7 @@
             "subtitle": "O que nós fazemos",
             "btn": "Conheça cada um deles"
         },
-        "video": "O outsourcing de comunicação é uma resposta à mudança. Atendemos as novas exigências do mercado com um time multidisciplinar e estratégico em comunicação e marketing para potencializar e escalar as equipes internas, que focam no core business e nas ações estratégicas.",
+        "video": "O outsourcing de comunicação é a construção de voz e reputação dentro e fora da sua empresa. <br /><br /> Nosso time multidisciplinar cuida da imagem da sua marca para que ela atraia as pessoas certas e retenha os clientes.",
         "testimonial": {
             "title": "O que falam sobre nós"
         },
@@ -197,7 +197,9 @@
         "why": {
             "title": "Por que a MA2?",
             "subtitle": "",
-            "text": " Somos o time de marketing e comunicação para posicionar marcas com tom de voz assertivo em seus segmentos de atuação no Brasil e no mundo."
+            "text": " Somos o time de marketing e comunicação para posicionar marcas com tom de voz assertivo em seus segmentos de atuação no Brasil e no mundo.",
+            "list":"<li>Desenvolvemos projetos personalizados para atender às necessidades e objetivos do seu negócio</li><li>Nossa equipe é multidisciplinar e atenta às inovações e tendências do mercado</li><li>Acompanhamos cada resultado com métricas baseadas em dados e você fica por dentro de tudo</li><li>Somos criativos e prezamos pela personalidade de cada projeto, trazendo sempre soluções e ideias únicas e atraentes​</li>"
+
         },
         "team": {
             "title": "MA2 dream team",
@@ -209,7 +211,7 @@
         },
         "vision": {
             "title": "Nossa visão",
-            "text": "Ser a maior referência de outsourcing de comunicação para empresas, independentemente se elas estão no Brasil ou em processo de internacionalização, bem como, para empresas internacionais que queriam regionalizar sua comunicação para o Brasil, gerando resultados tangíveis por maio das disciplinas de comunicação e marketing."
+            "text": "Ser a maior referência de outsourcing de comunicação para empresas, independentemente se elas estão no Brasil ou em processo de internacionalização, bem como para empresas internacionais que queriam regionalizar sua comunicação para o Brasil, gerando resultados tangíveis por maio das disciplinas de comunicação e marketing."
         },
         "values": {
             "title": "Nossos valores",
@@ -233,9 +235,10 @@
         }
     },
     "team": {
-        "mari": "CEO",
-        "tati": "Head de Conteúdo",
-        "vitor": "Head de Arte"
+        "mari": "CEO & Founder",
+        "tati": "Head de Operações",
+        "vitor": "Head de Arte",
+        "cris": "Head de Outsourcing"
     },
     "blog": {
         "heading": {

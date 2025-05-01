@@ -28,10 +28,10 @@ export default function LogoList() {
       src: "/images/portfolio/logos/NETSAFE_CORP.png",
       alt: "Logo Netsafe",
     },
-    {
-      src: "/images/portfolio/logos/ONCLICK_.png",
-      alt: "Logo onclick",
-    },
+    // {
+    //   src: "/images/portfolio/logos/ONCLICK_.png",
+    //   alt: "Logo onclick",
+    // },
     {
       src: "/images/portfolio/logos/SECUREWAY_.png",
       alt: "Logo SECUREWAY",

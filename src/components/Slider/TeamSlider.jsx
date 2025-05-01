@@ -9,23 +9,30 @@ export default function TeamSlider({ memberIndex }) {
   /** Team Member Data **/
   let teamData = [
     {
-      memberImage: "/images/sobre/Mariana.png",
-      memberName: "Mari",
-      memberDesignation: t('mari'),
+      memberImage: "/images/sobre/M&L-8.jpg",
+      memberName: "Mariana Alves de Assis​",
+      memberDesignation: t('team.mari'),
       memberSocial: {},
     },
     {
-      memberImage: "/images/sobre/Tati.png",
-      memberName: "Tati",
-      memberDesignation: t('tati'),
+      memberImage: "/images/sobre/P-83.jpg",
+      memberName: "Vitor Kennedy",
+      memberDesignation:t('team.vitor'),
       memberSocial: {},
     },
     {
-      memberImage: "/images/sobre/Vitor.png",
-      memberName: "Vitor",
-      memberDesignation:t('vitor'),
+      memberImage: "/images/sobre/P-80.jpg",
+      memberName: "Tatiane Melo",
+      memberDesignation: t('team.tati'),
       memberSocial: {},
     },
+    {
+      memberImage: "/images/sobre/chris.jpeg",
+      memberName: "Christiane Gonçalves",
+      memberDesignation: t('team.cris'),
+      memberSocial: {},
+    },
+    
   ];
   if (memberIndex !== undefined) {
     teamData = teamData.filter((x, index) => index === memberIndex);
@@ -60,7 +67,7 @@ export default function TeamSlider({ memberIndex }) {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     prevArrow: <SlickArrowLeft />,
     nextArrow: <SlickArrowRight />,
@@ -93,7 +100,7 @@ export default function TeamSlider({ memberIndex }) {
   return (
     <Slider {...settings} className="cs-gap-24 cs-arrow_style2">
       {teamData.map((item, index) => (
-        <Div key={index}>
+        <Div key={index} >
           <Team
             memberImage={item.memberImage}
             memberName={item.memberName}

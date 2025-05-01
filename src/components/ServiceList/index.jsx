@@ -58,7 +58,7 @@ export default function ServiceList({ position }) {
       posicao: "right",
     },
     {
-      texto: t("servicos.listaServicos.campanhaas"),
+      texto: t("servicos.listaServicos.campanhas"),
       posicao: "right",
     },
     {

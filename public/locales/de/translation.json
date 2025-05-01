@@ -35,11 +35,11 @@
             "portal": "Nachrichten-Portal",
             "redesSociais": "Soziale Medien",
             "pr": "PR (Pressestelle)",
-            "comunicação": "Interne Kommunikation",
-            "tradução": "Übersetzung",
+            "comunicacao": "Interne Kommunikation",
+            "traducao": "Übersetzung",
             "campanhas": "Kampagnen und Verstärkung",
             "gerenciamento": "Kommunikation und MKT-Management",
-            "operacionalização": "Operationalisierung von Kommunikation und MKT"
+            "operacionalizacao": "Operationalisierung von Kommunikation und MKT"
         },
         "faq": {
             "title": "MA2 beantwortet Ihre Fragen",
@@ -197,7 +197,8 @@
         "why": {
             "title": "Warum MA2?",
             "subtitle": "",
-            "text": "Wir sind das Marketing- und Kommunikationsteam, das Marken mit einem selbstbewussten Tonfall in ihren Wirkungsbereichen in Brasilien und auf der ganzen Welt positioniert."
+            "text": "Wir sind das Marketing- und Kommunikationsteam, das Marken mit einem selbstbewussten Tonfall in ihren Wirkungsbereichen in Brasilien und auf der ganzen Welt positioniert.",
+            "list": ""
         },
         "team": {
             "title": "MA Traumteam",
@@ -233,9 +234,10 @@
         }
     },
     "team": {
-        "mari": "CEO",
-        "tati": "Leiter der Abteilung Inhalt",
-        "vitor": "Künstlerischer Leiter"
+        "mari": "CEO & Gründer",
+        "tati": "Leiter der Abteilung Operations",
+        "vitor": "Leiterin der Kunstabteilung",
+        "cris": "Leiter der Abteilung Outsourcing"
     },
     "blog": {
         "heading": {

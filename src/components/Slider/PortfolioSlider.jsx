@@ -24,12 +24,12 @@ export default function PortfolioSlider() {
       href:'/portfolio/Impacta',
       src:'/images/portfolio/carousel/Faculdade_Impacta.png'
     },
-    {
-      title:'ONCLICK',
-      subtitle:t('portfolio.onclick.subtitle'),
-      href:'/portfolio/onclick',
-      src:'/images/portfolio/carousel/ONCLICK.png'
-    },
+    // {
+    //   title:'ONCLICK',
+    //   subtitle:t('portfolio.onclick.subtitle'),
+    //   href:'/portfolio/onclick',
+    //   src:'/images/portfolio/carousel/ONCLICK.png'
+    // },
     {
       title:'SW',
       subtitle:t('portfolio.sw.subtitle'),

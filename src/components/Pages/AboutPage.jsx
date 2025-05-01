@@ -78,7 +78,8 @@ export default function AboutPage() {
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">{t("sobre.why.text")}</p>
-
+              <ol dangerouslySetInnerHTML={{ __html: t("sobre.why.list") }}/>               
+             
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
               <Spacing lg="25" md="0" />
@@ -106,7 +107,7 @@ export default function AboutPage() {
       <Div className="container">
         <SectionHeading
           title={t("sobre.team.title")}
-          subtitle={t("sobre:team.subtitle")}
+          subtitle={t("sobre.team.subtitle")}
           variant="cs-style1"
         />
         <Spacing lg="85" md="45" />

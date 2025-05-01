@@ -14,16 +14,16 @@
             "pageLinkText": "Services"
         },
         "iconSection": {
-            "title": "Designed to accompany each stage of business",
-            "subtitle": "MA2 Services",
+            "title": "We monitor every stage of your business",
+            "subtitle": "We structure, create and execute your entire communication plan",
             "iconText": {
                 "planejar": "It is the first step in structuring your company's communication and marketing according to your business strategy. ",
                 "criar": "At this moment, the creative and development team works on creating visuals and specific materials for your brand to communicate. ",
-                "propagar": "The way your brand expresses itself from internal to external audiences is what makes the difference and reinforces culture, boosting results. "
+                "propagar": "Every day is designed to attract and retain your internal (employees) and external (partners and target audiences) audiences. In this way, we reinforce the culture and boost results. "
             }
         },
         "listaServicos": {
-            "text": "All services that MA2 offer to provide you the complete communication outsourcing ",
+            "text": "All the solutions MA2 Comms offers to provide you with complete communication outsourcing ",
             "planejamento": "Planning",
             "branding": "Branding (Brand Creation)",
             "materiais": "Institutional materials ",
@@ -35,11 +35,11 @@
             "portal": "News",
             "redesSociais": "Social media ",
             "pr": "PR (Public Relations) ",
-            "comunicacao": "Internal communication",
-            "traducao": "Translation",
-            "campanhas": "Campaigns and Boosting",
-            "gerenciamento": "Communication Management and MKT ",
-            "operacionalizacao": "Operationalization of Communication and MKT"
+            "comunicacao": "Internationalization",
+            "traducao": "Content translation/localization",
+            "campanhas": "Campaigns",
+            "gerenciamento": "Communication Management and Marketing ",
+            "operacionalizacao": "Operationalization of Communication and Marketing activities​"
         },
         "faq": {
             "title": "MA2 answers your question",
@@ -88,8 +88,8 @@
             "subtitle": "The bridge between your brand's voice and the market"
         },
         "funFact": {
-            "title": "Communication as business",
-            "subtitle": "Companies that know communication and marketing as a strategic part leverage faster and get better achievements",
+            "title": "Communication leverages business",
+            "subtitle": "Leave your company's marketing and communications to us and focus on your core business.",
             "data": {
                 "clientes": "Customers",
                 "horas": "Hours of Projects",
@@ -102,7 +102,7 @@
             "subtitle": "What we do ",
             "btn": "Get to know each of them"
         },
-        "video": "Communication outsourcing is a response to change. We meet new market demands with a multidisciplinary and strategic communication and marketing team to enhance and scale internal teams, which focus on core business and strategic actions. ",
+        "video": "Communication outsourcing is about building a voice and reputation inside and outside your company. <br/><br/>Our multidisciplinary team takes care of your brand's image so that it attracts the right people and retains customers.​",
         "testimonial": {
             "title": "What they say about us"
         },
@@ -197,7 +197,8 @@
         "why": {
             "title": "Why MA2?",
             "subtitle": "",
-            "text": "We are the marketing and communications team to position brands with an assertive tone of voice in their operating segments in Brazil and all around the world."
+            "text": "We are the marketing and communications team to position brands with an assertive tone of voice in their operating segments in Brazil and all around the world.",
+            "list": "<li>We develop customized projects to meet the needs and objectives of your business</li><li>Our team is multidisciplinary and attentive to innovations and market trends</li><li>We track each result with data-based metrics and you stay on top of everything</li><li>We are creative and value the personality of each project, always bringing unique and attractive solutions and ideas</li>"
         },
         "team": {
             "title": "MA2 Dreamteam",
@@ -233,9 +234,10 @@
         }
     },
     "team": {
-        "mari": "CEO",
-        "tati": "Head of Content",
-        "vitor": "Art Director"
+        "mari": "CEO & Founder",
+        "tati": "Head of Operations",
+        "vitor": "Head of Art",
+        "cris": "Head of Outsourcing"
     },
     "blog": {
         "heading": {

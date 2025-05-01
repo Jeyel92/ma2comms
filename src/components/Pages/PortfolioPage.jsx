@@ -24,11 +24,11 @@ export default function PortfolioPage() {
       imgUrl: "/images/portfolio/cases/Impacta.png",
       href: "/portfolio/impacta",
     },
-    {
-      title: "ONCLICK",
-      imgUrl: "/images/portfolio/cases/ONCLICK.png",
-      href: "/portfolio/onclick",
-    },
+    // {
+    //   title: "ONCLICK",
+    //   imgUrl: "/images/portfolio/cases/ONCLICK.png",
+    //   href: "/portfolio/onclick",
+    // },
     {
       title: "SW",
       imgUrl: "/images/portfolio/cases/SECUREWAY.png",

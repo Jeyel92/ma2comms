@@ -54,7 +54,7 @@ export default function ServicesPage() {
       <Div className="container">
         <SectionHeading
           title={t("servicos.iconSection.title")}
-          subtitle={t("servicos.iconSection.title")}
+          subtitle={t("servicos.iconSection.subtitle")}
           variant="cs-style1 text-center"
         />
         <Spacing lg="90" md="45" />
@@ -101,7 +101,7 @@ export default function ServicesPage() {
             <Spacing lg="0" md="40" />
           </Div>
           <Div className="col-lg-6 offset-xl-1">
-            <h2 className="cs-font_50 cs-m0">
+            <h2 className="cs-font_42 cs-m0">
               {t("servicos.listaServicos.text")}
             </h2>
             <Spacing lg="50" md="30" />

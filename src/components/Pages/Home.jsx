@@ -163,9 +163,8 @@ export default function Home() {
             backgroundImage: `linear-gradient(0deg, rgba(26.06, 2.79, 31.88, 0.80) 0%, rgba(26.06, 2.79, 31.88, 0.80) 100%),url(/images/ma2-ponte.png)`,
           }}
         >
-          <h2 className=" cs-m0 text-center cs-line_height_4">
-            {t("home.video")}
-          </h2>
+          <h2 className=" cs-m0 text-center cs-line_height_4" dangerouslySetInnerHTML={{ __html: t("home.video") }} />          
+         
         </Div>
       </Div>
       {/* End Video Block Section */}
