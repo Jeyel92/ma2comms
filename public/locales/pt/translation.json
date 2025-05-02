@@ -1,0 +1,275 @@
+{
+    "cta": {
+        "title": "Conheça e implemente o Outsourcing de Comunicação na sua empresa",
+        "btn": "Agende o seu coffee com a MA2"
+    },
+    "btnVerMais": "Ver mais",
+    "servicos": {
+        "planejar": "Planejar e Contar",
+        "criar": "Criar",
+        "propagar": "Propagar",
+        "heading": {
+            "title": "Outsourcing da Comunicação",
+            "subtitle": "Conheça os serviços sob medida para a sua empresa",
+            "pageLinkText": "Serviços"
+        },
+        "iconSection": {
+            "title": "Acompanhamos cada etapa do seu negócio",
+            "subtitle": "Estruturamos, criamos e executamos todo o seu plano de comunicação",
+            "iconText": {
+                "planejar": "É a primeira etapa para estruturar a comunicação e o marketing da sua empresa de acordo com a estratégia do negócio.",
+                "criar": "Neste momento, o time criativo e de desenvolvimento atua na criação visual e de materiais específicos para a sua marca comunicar. ",
+                "propagar": "Todos os dias são pensados para atrair e reter o seu público interno (colaboradores) e externo (parceiros e público-alvo). Assim, reforçamos a cultura e impulsionamos os resultados."
+            }
+        },
+        "listaServicos": {
+            "text": " Todas as soluções que a MA2 Comms oferece para te entregar o outsourcing completo de comunicação",
+            "planejamento": "Planejamento",
+            "branding": "Branding (Criação de Marca)",
+            "materiais": "Materiais institucionais",
+            "website": "Website e Landing Page",
+            "videos": "Vídeos",
+            "conteudo": "Conteúdo",
+            "blog": "Blog",
+            "ebook": "E-book",
+            "portal": "Portal de Notícias",
+            "redesSociais": "Redes Sociais",
+            "pr": "PR (Assessoria de Imprensa)",
+            "comunicacao": "Internacionalização",
+            "traducao": "Tradução/Localização de conteúdo",
+            "campanhas": "Campanhas",
+            "gerenciamento": "Gerenciamento de Comunicação e Marketing",
+            "operacionalizacao": "Operacionalização da Comunicação e Marketing"
+        },
+        "faq": {
+            "title": "MA2 responde a sua dúvida",
+            "subtitle": "FAQ",
+            "Q1": {
+                "question": "1.A MA2 atende apenas empresas grandes?",
+                "answer": "Não, a MA2 nasceu para ser a parceira estratégica das pequenas e médias empresas. Mas também somos escolhidos por grandes marcas."
+            },
+            "Q2": {
+                "question": "2.Posso contratar apenas os serviços da MA2?",
+                "answer": "Com certeza! Por isso, contamos com o nosso portfólio completo para atender às necessidades específicas de cada negócio."
+            },
+            "Q3": {
+                "question": "3.O que é o outsourcing de comunicação?",
+                "answer": "É o modelo mais atual de comunicação e marketing para entregar à sua empresa o que ela precisa nestas disciplinas. Contamos com um time multidisciplinar e estratégico para desenvolver cada uma das etapas e atividades."
+            },
+            "Q4": {
+                "question": "4.O meu projeto é personalizado?",
+                "answer": "100% feito para o seu negócio. Nosso time entende a sua estrutura e os objetivos para criar um programa estruturado e faseado, acompanhando cada momento de forma estratégica e precisa."
+            },
+            "Q5": {
+                "question": "5.A MA2 atende apenas o Brasil?",
+                "answer": "Não, a MA2 é uma empresa global. Estamos sediados no Brasil (São Paulo) e na Alemanha (Lübeck), com atuação além desses países, na América Latina, nos EUA e muitos outros."
+            }
+        }
+    },
+    "cases": {
+        "title": "Conheça o Portfólio MA2",
+        "subtitle": "Nossos cases"
+    },
+    "menu": {
+        "servicos": "Serviços",
+        "sobre": "Sobre",
+        "cases": "Cases",
+        "blog": "Blog",
+        "contato": "Contato"
+    },
+    "faleConosco": "Fale conosco",
+    "faleConosco2": "Você tem algum projeto em <br /> mente? Fale conosco.",
+    "brasil": "Brasil",
+    "alemanha": "Alemanha",
+    "textWidget": "Somos o outsourcing de comunicação para empresas do Brasil e do mundo",
+    "home": {
+        "hero": {
+            "title": "Outsourcing da Comunicação",
+            "subtitle": "A ponte entre a voz da sua marca e o mercado"
+        },
+        "funFact": {
+            "title": "Comunicação alavanca negócios",
+            "subtitle": "Deixe o marketing e a comunicação da sua empresa conosco para focar no seu core business.",
+            "data": {
+                "clientes": "Clientes",
+                "horas": "Horas de Projetos",
+                "designs": "Designs Produzidos",
+                "palavras": "Palavras Escritas"
+            }
+        },
+        "servicos": {
+            "title": "Serviços pensados e personalizados para a sua marca",
+            "subtitle": "O que nós fazemos",
+            "btn": "Conheça cada um deles"
+        },
+        "video": "O outsourcing de comunicação é a construção de voz e reputação dentro e fora da sua empresa. <br /><br /> Nosso time multidisciplinar cuida da imagem da sua marca para que ela atraia as pessoas certas e retenha os clientes.",
+        "testimonial": {
+            "title": "O que falam sobre nós"
+        },
+        "movingText": "A ponte entre a voz da sua marca e o mercado.&nbsp;&nbsp;"
+    },
+    "portfolio": {
+        "labels": {
+            "informacoes": "Informações do Projeto",
+            "cliente": "Cliente",
+            "categoria": "Categoria",
+            "localidade": "Localidade",
+            "desde": "Desde"
+        },
+        "netsafe": {
+            "subtitle": "Outsourcing de Comunicação",
+            "description": {
+                "title": "O time operacional de comunicação e marketing ",
+                "subtitle": "Outsourcing de Comunicação",
+                "text": "<p>NetSafe Corp é uma empresa que atua há 25 anos no segmento de segurança da informação. A MA2 é responsável pela estrutura do time de comunicação e marketing em todas as frentes, trabalhando em conjunto com o diretor de marketing e relacionamento. </p><p>Construímos e ampliamos todos os canais de comunicação, como redes sociais, e-book, blog, PR (assessoria de imprensa), newsletter e e-mail marketing, estruturamos a comunicação interna e damos o suporte a todos os eventos e ações realizadas pela empresa.</p>"
+            },
+            "dated": "Fevereiro/2020",
+            "category": "Outsourcing de Comunicação"
+        },
+        "acura": {
+            "subtitle": "Site & Outsourcing de Comunicação",
+            "description": {
+                "title": "Reformulação e atualização da marca ",
+                "subtitle": "Site & Outsourcing",
+                "text": "<p>Acura Capital é uma gestora de investimentos focada no público de alta renda e investidores de risco. Juntamente com a diretoria, a MA2 atua na reconstrução da marca para conversar com o mercado da forma como atua e entrega os seus produtos: sofisticação, excelência e pioneirismo. </p><p>Somos os responsáveis pelo desenvolvimento de um website de layout exclusivo, feito sob medida pelo nosso time, e por estruturar os canais de comunicação (redes sociais, blog, PR e newsletter) para a marca comunicar com efetividade. </p>"
+            },
+            "dated": "Dezembro/2022",
+            "category": "Site e Outsourcing de Comunicação"
+        },
+        "impacta": {
+            "subtitle": "PR",
+            "description": {
+                "title": "Reforçar e comunicar",
+                "subtitle": "PR",
+                "text": "<p>O Grupo Impacta Tecnologia está há 35 anos formando profissionais para o mercado de tecnologia. Com cursos desde o tecnólogo e graduação, passa pela pós, MBA e corporativo, sendo um dos principais e mais reconhecidos do país. </p><p>Para comunicar as ações institucionais e destacar a marca por meio das Public Relations (PR), a MA2 atua juntamente à diretoria e ao Marketing, para trazer pautas relevantes ao mercado. </p>"
+            },
+            "dated": "Maio/2021",
+            "category": "PR"
+        },
+        "onclick": {
+            "subtitle": "Conteúdo",
+            "description": {
+                "title": "Produção para as plataformas",
+                "subtitle": "Conteúdo",
+                "text": "<p>ONCLICK é uma empresa de sistemas empresariais (ERP) com foco no varejo. Para conversar com o seu público, uma das principais estratégias do Marketing é o Marketing de Conteúdo. E é nesta disciplina que a MA2 é a sua parceria estratégica. </p><p>O time de conteúdo atua desde a elaboração do planejamento de temas mensais até a produção de conteúdos específicos e personalizados para o blog e para os e-books (conteúdo e arte). </p>"
+            },
+            "dated": "Junho/2020",
+            "category": "Conteúdo"
+        },
+        "sw": {
+            "subtitle": "Conteúdo & Tradução",
+            "description": {
+                "title": "Comunicação internacional",
+                "subtitle": "Conteúdo & Tradução",
+                "text": "<p>SECUREWAY é uma empresa de segurança e infraestrutura corporativa. Como parte da reestruturação do Marketing, o conteúdo é um pilar fundamental da estratégia. Com isso, a MA2 é o parceiro responsável pela produção dos blogposts semanais.</p><p>Além disso, reescrevemos todo o website para o lançamento juntamente com o rebranding, em 2022, e agora estamos traduzindo para o inglês e espanhol, como parte da estratégia de internacionalização da marca. </p>"
+            },
+            "dated": "Março/2021",
+            "category": "Conteúdo & Tradução"
+        },
+        "neocount": {
+            "subtitle": "Social Media & CI",
+            "description": {
+                "title": "Comunicação nova para a nova marca",
+                "subtitle": "Social Media & CI",
+                "text": "<p>Neocount é a nova marca da SW Contabilidade, que atua há mais de 3 décadas no mercado capixaba. Após o rebranding, a MA2 foi escolhida como a parceira estratégica para desenvolver o website e toda a estrutura de comunicação. </p><p>Somos os responsáveis pela comunicação nas redes sociais com a produção do planejamento, dos conteúdos e das imagens, dos blogposts, comunicados para os clientes e a comunicação com os times internos, reforçando a cultura de marca, que é bem presente na Neocount. </p>"
+            },
+            "dated": "Abril/2023",
+            "category": "Social Media & CI"
+        }
+    },
+    "testimonial": {
+        "acura": "Equipe muito preparada, com conhecimento e confiança no que fazer. Compreensíveis e possuem um ótimo atendimento. Arte muito bem feitas e conteúdos que atendem e fazem parte do business da empresa.",
+        "netsafe": "Tudo flui muito bem e os prazos são sempre atendidos. Equipe nota 10!"
+    },
+    "sobre": {
+        "heading": {
+            "title": "MA2",
+            "subtitle": "O outsourcing de comunicação da sua empresa no Brasil e no mundo",
+            "pageLinkText": "Sobre Nós"
+        },
+        "about": {
+            "title": "Somos estratégicos, incansáveis e multidisciplinares.",
+            "subtitle": "Sobre a MA2",
+            "p1": "Combinamos a comunicação e o design com a inteligência de mercado e a tecnologia para criar um novo modelo de negócios: o outsourcing de comunicação.",
+            "p2": "Nosso DNA de inovação e excelência fornece o combustível necessário para estruturar a comunicação on e offline de empresas arrojadas com a ambição de crescer. Nosso maior propósito é que as marcas obtenham resultados a partir de seu tom de voz assertivo nos mercados nacionais e internacionais.",
+            "p3": "Para isso, juntamos as ações gerenciais, estratégicas e operacionais com as transformações do mundo e os avanços tecnológicos, de forma que as empresas estejam preparadas para antecipar as tendências em seus segmentos com autoridade de fala e relevância."
+        },
+        "why": {
+            "title": "Por que a MA2?",
+            "subtitle": "",
+            "text": " Somos o time de marketing e comunicação para posicionar marcas com tom de voz assertivo em seus segmentos de atuação no Brasil e no mundo.",
+            "list":"<li>Desenvolvemos projetos personalizados para atender às necessidades e objetivos do seu negócio</li><li>Nossa equipe é multidisciplinar e atenta às inovações e tendências do mercado</li><li>Acompanhamos cada resultado com métricas baseadas em dados e você fica por dentro de tudo</li><li>Somos criativos e prezamos pela personalidade de cada projeto, trazendo sempre soluções e ideias únicas e atraentes​</li>"
+
+        },
+        "team": {
+            "title": "MA2 dream team",
+            "subtitle": "Nosso time"
+        },
+        "mission": {
+            "title": "Nossa missão",
+            "text": "Ser a voz corporativa com excelência e assertividade para que as marcas conversem com o seu mercado-alvo, investidores e talentos."
+        },
+        "vision": {
+            "title": "Nossa visão",
+            "text": "Ser a maior referência de outsourcing de comunicação para empresas, independentemente se elas estão no Brasil ou em processo de internacionalização, bem como para empresas internacionais que queriam regionalizar sua comunicação para o Brasil, gerando resultados tangíveis por maio das disciplinas de comunicação e marketing."
+        },
+        "values": {
+            "title": "Nossos valores",
+            "subtitle": "Conheça alguns deles",
+            "build": {
+                "title": "CONSTRUIR COMUNICAÇÃO",
+                "subtitle": "Somos incansáveis na produção de projetos exclusivos que combinam a criatividade e a inovação."
+            },
+            "communicate": {
+                "title": "COMUNICAR IDEIAS",
+                "subtitle": "Valorizamos todas as etapas do processo e a solução de desafios — dos mais simples ao mais complexos —com a integração dos talentos."
+            },
+            "translate": {
+                "title": "TRADUZIR VALORES",
+                "subtitle": "Combinamos o repertório cultural e pessoal para conceber conteúdos instigantes com mensagens exatas. "
+            },
+            "connect": {
+                "title": "CONECTAR PROPÓSITOS",
+                "subtitle": "Entendemos a individualidade e nos propomos a capacitar cada colaborador para conectar as atividades de cada cliente, culminando com o crescimento do negócio."
+            }
+        }
+    },
+    "team": {
+        "mari": "CEO & Founder",
+        "tati": "Head de Operações",
+        "vitor": "Head de Arte",
+        "cris": "Head de Outsourcing"
+    },
+    "blog": {
+        "heading": {
+            "title": "Nosso Blog"
+        },
+        "sidebar": {
+            "categorias": "Categorias",
+            "recentes": "Últimos posts"
+        },
+        "loadMore": "Carregar mais",
+        "readMore": "Ler mais",
+        "categoryExplore": "Explore as publicações de"
+    },
+    "contato": {
+        "heading": {
+            "title": "Você e a MA2",
+            "pageLinkText": "Contato"
+        },
+        "details": {
+            "title": "Qual é o seu projeto atual? Compartilhe conosco! ",
+            "subtitle": "Fale com o nosso time de especialistas"
+        },
+        "form": {
+            "inputs": {
+                "name": "Nome",
+                "email": "Email",
+                "project": "Projeto",
+                "phone": "Telefone",
+                "message": "Mensagem",
+                "send": "Enviar"
+            }
+        }
+    }
+}

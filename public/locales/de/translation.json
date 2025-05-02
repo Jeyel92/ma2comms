@@ -1,0 +1,274 @@
+{
+    "cta": {
+        "title": "Lernen Sie das Kommunikations - Outsourcing kennen und implementieren Sie es in Ihrem Unternehmen",
+        "btn": "Vereinbaren Sie Ihren Kaffee mit MA2"
+    },
+    "btnVerMais": "Mehr sehen",
+    "servicos": {
+        "planejar": "Analysieren und Planen",
+        "criar": "Erstellen",
+        "propagar": "Propagieren",
+        "heading": {
+            "title": "Kommunikations - Outsourcing",
+            "subtitle": "Entdecken Sie die auf Ihr Unternehmen zugeschnittenen Dienstleistungen",
+            "pageLinkText": "Service"
+        },
+        "iconSection": {
+            "title": "Entwickelt, um jede Phase des Geschäfts zu begleiten",
+            "subtitle": "MA2 Dienstleistungen",
+            "iconText": {
+                "planejar": "Dies ist der erste Schritt zur Strukturierung der Kommunikation und des Marketings Ihres Unternehmens entsprechend Ihrer Unternehmensstrategie.",
+                "criar": "In dieser Phase arbeitet das Kreativ- und Entwicklungsteam an der Erstellung von Bildmaterial und spezifischen Materialien für die Kommunikation Ihrer Marke. ",
+                "propagar": "Die Art und Weise, wie Ihre Marke intern und extern kommuniziert wird, macht den Unterschied aus, stärkt die Kultur und steigert die Ergebnisse."
+            }
+        },
+        "listaServicos": {
+            "text": "Alle Service-Leistungen, die MA2 durchführt, um Ihnen ein vollständiges Kommunikations-Outsourcing zu ermöglichen ",
+            "planejamento": "Planung",
+            "branding": "Markenbildung",
+            "materiais": "Institutionelle Materialien",
+            "website": "Website und Landing Page",
+            "videos": "Videos",
+            "conteudo": "Inhalt",
+            "blog": "Blog",
+            "ebook": "E-book",
+            "portal": "Nachrichten-Portal",
+            "redesSociais": "Soziale Medien",
+            "pr": "PR (Pressestelle)",
+            "comunicacao": "Interne Kommunikation",
+            "traducao": "Übersetzung",
+            "campanhas": "Kampagnen und Verstärkung",
+            "gerenciamento": "Kommunikation und MKT-Management",
+            "operacionalizacao": "Operationalisierung von Kommunikation und MKT"
+        },
+        "faq": {
+            "title": "MA2 beantwortet Ihre Fragen",
+            "subtitle": "FAQ",
+            "Q1": {
+                "question": "1. Bedient MA2 nur große Unternehmen?",
+                "answer": "Nein, MA2 wurde als strategischer Partner für kleine und mittlere Unternehmen gegründet. Aber wir werden auch von großen Marken gewählt."
+            },
+            "Q2": {
+                "question": "2. Kann ich MA2 als alleinigen Service-Leister in Anspruch nehmen?",
+                "answer": "Ja, natürlich! Deshalb haben wir ein komplettes Portfolio, um die spezifischen Bedürfnisse jedes Unternehmens zu erfüllen. "
+            },
+            "Q3": {
+                "question": "3. Was ist Outsourcing von Kommunikation?",
+                "answer": "Es ist das modernste Kommunikations- und Marketingmodell, um Ihrem Unternehmen das zu liefern, was es in diesen Disziplinen braucht. Wir verfügen über ein multidisziplinäres und strategisches Team, um alle Phasen und Aktivitäten zu entwickeln."
+            },
+            "Q4": {
+                "question": "4. Ist mein Projekt personalisiert? ",
+                "answer": "Es ist 100% auf Ihr Unternehmen zugeschnitten. Unser Team versteht Ihre Struktur und Ihre Ziele, um ein strukturiertes und abgestuftes Programm zu erstellen, das jeden Moment strategisch und präzise verfolgt."
+            },
+            "Q5": {
+                "question": "5. Ist MA2 nur in Brasilien tätig? ",
+                "answer": "Nein, MA2 ist ein globales Unternehmen. Wir haben unseren Sitz in Brasilien (São Paulo) und Deutschland (Lübeck) und sind in Lateinamerika, den USA und vielen anderen Ländern tätig."
+            }
+        }
+    },
+    "cases": {
+        "title": "Lernen Sie das MA2-Portfolio kennen",
+        "subtitle": "Unsere Projekte"
+    },
+    "menu": {
+        "servicos": "Service",
+        "sobre": "über",
+        "cases": "Projekte",
+        "blog": "Blog",
+        "contato": "Kontakt"
+    },
+    "faleConosco": "Kontaktieren Sie uns",
+    "faleConosco2": "Haben Sie ein Projekt im <br /> Sinn? Kontaktieren",
+    "brasil": "Brasilien",
+    "alemanha": "Deutschland",
+    "textWidget": "Wir sind das Kommunikations - Outsourcing für Unternehmen in Brasilien und auf der ganzen Welt",
+    "home": {
+        "hero": {
+            "title": "Kommunikations -  Outsourcing",
+            "subtitle": "Die Brücke zwischen Ihrer Marke und dem Markt"
+        },
+        "funFact": {
+            "title": "Kommunikation gehört zum Geschäft ",
+            "subtitle": "Unternehmen, die Kommunikation und Marketing als eine strategische Aufgabe betrachten, erzielen schneller und bessere Ergebnisse.",
+            "data": {
+                "clientes": "Kunden",
+                "horas": "Stunden an Projekten",
+                "designs": "Entwürfe erstellt",
+                "palavras": "geschriebene Wörter"
+            }
+        },
+        "servicos": {
+            "title": "Für Ihre Marke konzipierte und personalisierte Dienstleistungen",
+            "subtitle": "Was wir tun",
+            "btn": "Lernen Sie jede einzelne von ihnen kennen"
+        },
+        "video": "Das Kommunikations - Outsourcing ist eine Antwort auf den Wandel. Wir begegnen den neuen Anforderungen des Marktes mit einem multidisziplinären und strategischen Kommunikations- und Marketingteam, um die internen Kräfte, die sich auf das Kerngeschäft und strategische Maßnahmen konzentrieren, zu stärken und zu vergrößern. ",
+        "testimonial": {
+            "title": "Was sie über uns sagen"
+        },
+        "movingText": "Die Brücke zwischen Ihrer Marke und dem Markt.  "
+    },
+    "portfolio": {
+        "labels": {
+            "informacoes": "Projektinformationen",
+            "cliente": "Kunde",
+            "categoria": "Kategorie",
+            "localidade": "Örtlichkeit",
+            "desde": "Seit"
+        },
+        "netsafe": {
+            "subtitle": "Outsourcing der Kommunikation ",
+            "description": {
+                "title": "Das Team für operative Kommunikation und Marketing",
+                "subtitle": "Kommunikations-Outsourcing",
+                "text": "<p>NetSafe Corp ist ein Unternehmen, das seit 25 Jahren im Bereich der Informationssicherheit tätig ist. MA2 ist für den Aufbau des Kommunikations- und Marketingteams an allen Fronten verantwortlich und arbeitet dabei mit dem Marketing- und Relationship Director zusammen.</p><p>Wir bauen alle Kommunikationskanäle wie soziale Netzwerke, E-Book, Blog, PR (Pressestelle), Newsletter und E-Mail-Marketing auf und aus, strukturieren die interne Kommunikation und unterstützen alle Veranstaltungen und Aktionen des Unternehmens. </p>"
+            },
+            "dated": "Februar/2020",
+            "category": "Kommunikations-Outsourcing"
+        },
+        "acura": {
+            "subtitle": "Website und Outsourcing der Kommunikation",
+            "description": {
+                "title": "Neugestaltung und Auffrischung der Marke",
+                "subtitle": "Website & Outsourcing",
+                "text": "<p>Acura Capital ist ein Investmentmanager, der sich auf einkommensstarke Investoren und Risikokapitalgeber konzentriert. Gemeinsam mit dem Vorstand hat MA2 an der Neugestaltung der Marke gearbeitet, um dem Markt die Art und Weise zu vermitteln, wie das Unternehmen arbeitet und seine Produkte liefert: Raffinesse, Exzellenz und Pioniergeist. </p><p>Wir sind verantwortlich für die Entwicklung einer Website mit einem exklusiven Layout, das von unserem Team angepasst wurde, und für die Strukturierung der Kommunikationskanäle (soziale Netzwerke, Blog, PR und Newsletter), um die Marke effektiv zu kommunizieren.  </p>"
+            },
+            "dated": "Dezember/2022",
+            "category": "Website und Kommunikations-Outsourcing"
+        },
+        "impacta": {
+            "subtitle": "PR",
+            "description": {
+                "title": "Verstärken und kommunizieren ",
+                "subtitle": "PR",
+                "text": "<p>Die Impacta Tecnologia Group bildet seit 35 Jahren Fachleute für den Technologiemarkt aus. Mit ihrem Angebot an Kursen, welches von Grund- und Aufbaustudiengängen bis hin zu MBA- und Unternehmenskursen reicht, ist sie eine der führenden und anerkanntesten des Landes.  </p><p>Um die institutionellen Maßnahmen zu kommunizieren und die Marke durch Public Relations (PR) hervorzuheben, arbeitet MA2 mit dem Vorstand und dem Marketing zusammen, um relevante Inhalte auf den Markt zu bringen. </p>"
+            },
+            "dated": "Mai/2021",
+            "category": "PR"
+        },
+        "onclick": {
+            "subtitle": "Inhalt",
+            "description": {
+                "title": "Content Creation für die Plattformen",
+                "subtitle": "Inhalt",
+                "text": "<p>ONCLICK ist ein auf den Einzelhandel ausgerichtetes ERP-Unternehmen. Um sein Publikum anzusprechen, ist eine der wichtigsten Marketingstrategien das Content Marketing. Und genau in dieser Disziplin ist MA2 ihr strategischer Partner.</p><p>Das Content-Team kümmert sich um alles, von der Planung der monatlichen Themen bis hin zur Produktion spezifischer, personalisierter Inhalte für den Blog und die E-Books (Inhalt und Artwork). </p>"
+            },
+            "dated": "Juni/2020",
+            "category": "Inhalt"
+        },
+        "sw": {
+            "subtitle": "Inhalt & Übersetzung",
+            "description": {
+                "title": "Internationale Kommunikation ",
+                "subtitle": "Inhalt & Übersetzung",
+                "text": "<p>SECUREWAY ist ein Unternehmen für Sicherheit und Infrastruktur. Im Rahmen der Neuausrichtung des Marketings ist Content ein wesentlicher Pfeiler der Strategie. MA2 ist der Partner, der für die Erstellung der wöchentlichen Blogposts verantwortlich ist. </p><p>Darüber hinaus haben wir die gesamte Website für den Launch im Rahmen des Rebrandings der Marke 2022 neu geschrieben und sie nun im Rahmen der Internationalisierungsstrategie ins Englische und Spanische übersetzt. </p>"
+            },
+            "dated": "März/2021",
+            "category": "Inhalt & Übersetzung"
+        },
+        "neocount": {
+            "subtitle": "Soziale Medien & CI",
+            "description": {
+                "title": "Neue Kommunikation für die neue Marke",
+                "subtitle": "Soziale Medien & CI",
+                "text": "<p>Neocount ist die neue Marke von SW Contabilidade, die seit mehr als drei Jahrzehnten auf dem Markt von Espírito Santo tätig ist. Nach dem Rebranding wurde MA2 als strategischer Partner für die Entwicklung der Website und der gesamten Kommunikationsstruktur ausgewählt.</p><p>Wir sind verantwortlich für die Kommunikation in den sozialen Netzwerken, die Planung, den Inhalt und die Bilder, die Blogposts, die Kundenkommunikation und die Kommunikation mit den internen Teams, um die Markenkultur zu stärken, die bei Neocount sehr präsent ist. </p>"
+            },
+            "dated": "April/2023",
+            "category": "Soziale Medien & CI"
+        }
+    },
+    "testimonial": {
+        "acura": "Sehr gut vorbereitetes Team, sachkundig und sicher in dem, was sie tun. Verständlicher und ausgezeichneter Service. Sehr gut gemachte Grafiken und Inhalte, die das Business des Unternehmens erfüllen und zu ihm passen.",
+        "netsafe": "Alles lief reibungslos und die Fristen wurden immer eingehalten. Team 10!"
+    },
+    "sobre": {
+        "heading": {
+            "title": "MA2",
+            "subtitle": "Outsourcing der Kommunikation Ihres Unternehmens in Brasilien und weltweit",
+            "pageLinkText": "Über uns"
+        },
+        "about": {
+            "title": "Wir sind/arbeiten strategisch, unermüdlich und multidisziplinär.",
+            "subtitle": "Über MA2",
+            "p1": "Wir verbinden Kommunikation und Design mit Marktkenntnis und Technologie, um ein neues Geschäftsmodell zu schaffen: Kommunikations - Outsourcing. ",
+            "p2": "Unsere DNA aus Innovation und Exzellenz liefert den nötigen Treibstoff für die Strukturierung der On- und Offline-Kommunikation von mutigen Unternehmen mit Wachstumsambitionen. Unser Hauptziel ist es, dass Marken mit ihrem selbstbewussten Auftreten auf nationalen und internationalen Märkten Ergebnisse erzielen.",
+            "p3": "Um dies zu erreichen, kombinieren wir Management-, Strategie- und Betriebsmaßnahmen mit den Veränderungen in der Welt und den technologischen Fortschritten, so dass die Unternehmen darauf vorbereitet sind, die Trends in ihren Segmenten mit Sprachgewalt und Relevanz zu antizipieren."
+        },
+        "why": {
+            "title": "Warum MA2?",
+            "subtitle": "",
+            "text": "Wir sind das Marketing- und Kommunikationsteam, das Marken mit einem selbstbewussten Tonfall in ihren Wirkungsbereichen in Brasilien und auf der ganzen Welt positioniert.",
+            "list": ""
+        },
+        "team": {
+            "title": "MA Traumteam",
+            "subtitle": "Unserem Team"
+        },
+        "mission": {
+            "title": "Unsere Mission",
+            "text": "Die Unternehmensstimme für Marken zu sein, mit Exzellenz und Durchsetzungsvermögen, um mit ihren Zielmärkten, Investoren und Talenten zu kommunizieren."
+        },
+        "vision": {
+            "title": "Unsere Vision ",
+            "text": "Die führende Outsourcing-Referenz für die Kommunikation von Unternehmen zu sein, unabhängig davon, ob sie in Brasilien ansässig sind oder sich im Prozess der Internationalisierung befinden, ebenso wie für internationale Unternehmen, die ihre Kommunikation in Brasilien regionalisieren wollen, indem sie durch die Kommunikations- und Marketingdisziplinen greifbare Ergebnisse erzielen."
+        },
+        "values": {
+            "title": "Unsere Werte",
+            "subtitle": "Lernen Sie einige davon kennen",
+            "build": {
+                "title": "KOMMUNIKATION AUFBAUEN",
+                "subtitle": "Wir sind unermüdlich bei der Entwicklung einzigartiger Projekte, die Kreativität und Innovation vereinen."
+            },
+            "communicate": {
+                "title": "IDEEN KOMMUNIZIEREN",
+                "subtitle": "Wir achten auf jede Phase des Prozesses und die Lösung von Herausforderungen - von den einfachsten bis zu den komplexesten - durch die Integration von Talenten."
+            },
+            "translate": {
+                "title": "WERTE VERMITTELN",
+                "subtitle": "Wir kombinieren unser kulturelles und persönliches Repertoire, um Inhalte zu schaffen, die zum Nachdenken anregen und präzise Botschaften vermitteln."
+            },
+            "connect": {
+                "title": "ZIELE VERBINDEN",
+                "subtitle": "Wir verstehen Individualität und wollen jeden Mitarbeiter dazu befähigen, sich mit den Aktivitäten jedes Kunden zu verbinden, um so das Unternehmenswachstum zu fördern."
+            }
+        }
+    },
+    "team": {
+        "mari": "CEO & Gründer",
+        "tati": "Leiter der Abteilung Operations",
+        "vitor": "Leiterin der Kunstabteilung",
+        "cris": "Leiter der Abteilung Outsourcing"
+    },
+    "blog": {
+        "heading": {
+            "title": "Unser Blog"
+        },
+        "sidebar": {
+            "categorias": "Kategorien",
+            "recentes": "Neueste Beiträge"
+        },
+        "loadMore": "Mehr Laden",
+        "readMore": "Mehr Lesen",
+        "categoryExplore": "Erkunden Sie die Veröffentlichungen von"
+    },
+    "contato":{
+        "heading": {
+            "title": "Sie und MA2",        
+            "pageLinkText": "Kontakt"
+        },
+        "details":{
+            "title": "Was ist Ihr aktuelles Projekt? <br />Teilen Sie es mit uns!",
+            "subtitle": "Sprechen Sie mit unserem Expertenteam"
+        },
+        "form":{
+            "inputs":{
+                "name": "Name",
+                "email": "E-Mail",
+                "project": "Projekt",
+                "phone": "Telefon",
+                "message": "Nachricht",
+                "send": "Senden Sie"
+            }
+        }
+    }
+}
